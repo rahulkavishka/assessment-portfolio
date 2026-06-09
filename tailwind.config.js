@@ -11,7 +11,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        handwriting: ['Caveat', 'cursive'],
+        serif: ['Lora', 'serif'],
+      },
       colors: {
+        scrapbook: {
+          bg: '#1c1815', // Dark earthy brown
+          paper: '#f4ebd8', // Creamy warm paper
+          paperDark: '#e3d5bb',
+          tan: '#b59275', // Warm tan/brown
+          ink: '#2a221d',
+          tape: 'rgba(255, 255, 255, 0.4)', // Translucent tape
+          tapeDark: 'rgba(0, 0, 0, 0.3)', // Dark tape
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
