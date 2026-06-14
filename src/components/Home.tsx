@@ -125,7 +125,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
             <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-accent shadow-[0_0_10px_rgba(201,149,107,0.5)] border-2 border-scrapbook-paper z-10"></div>
             <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-accent mb-1">Week 1-3</h4>
             <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Foundation & Self</h5>
-            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Understanding the "Harbor" concept, building visual stories, and developing emotional intelligence.</p>
+            <p className="font-serif text-scrapbook-ink/70 text-md max-w-md">Understanding the "Harbor" concept, building visual stories, and developing emotional intelligence.</p>
           </div>
 
           {/* Node 2 */}
@@ -133,7 +133,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
             <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-paper border-2 border-scrapbook-tan z-10"></div>
             <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-tan mb-1">Week 4-5</h4>
             <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Professional Output</h5>
-            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Crafting industry-ready CVs and conducting comprehensive academic and market research.</p>
+            <p className="font-serif text-scrapbook-ink/70 text-md max-w-md">Crafting industry-ready CVs and conducting comprehensive academic and market research.</p>
           </div>
 
           {/* Node 3 */}
@@ -141,7 +141,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
             <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-paper border-2 border-scrapbook-tan z-10"></div>
             <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-tan mb-1">Week 6-8</h4>
             <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Leadership & Action</h5>
-            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Managing meetings, negotiating effectively, and demonstrating team leadership skills.</p>
+            <p className="font-serif text-scrapbook-ink/70 text-md max-w-md">Managing meetings, negotiating effectively, and demonstrating team leadership skills.</p>
           </div>
 
         </div>
