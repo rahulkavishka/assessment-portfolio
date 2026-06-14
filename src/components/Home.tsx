@@ -37,7 +37,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
               Academic Journal
             </h2>
             <p className="mt-4 font-serif text-xl sm:text-2xl text-scrapbook-paper/80 italic max-w-2xl mx-auto font-light">
-              A creative, evidence-based scrapbook documenting Professional Skills Module learning, milestones, and reflections.
+              A creative, evidence-based scrapbook documenting Professional Skills Module's learning, milestones, and reflections.
             </p>
           </div>
 
