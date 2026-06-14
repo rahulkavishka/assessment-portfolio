@@ -69,6 +69,10 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
                     <span className="font-medium text-scrapbook-paper">SLIIT City Uni</span>
                   </div>
                   <div className="col-span-2 mt-1.5 pt-1.5 border-t border-white/10">
+                    <span className="block text-[10px] uppercase tracking-wider text-scrapbook-tan/70 mb-0.5">Course & Intake</span>
+                    <span className="font-medium text-scrapbook-paper">HND in IT - June 2024 Intake</span>
+                  </div>
+                  <div className="col-span-2 mt-1.5 pt-1.5 border-t border-white/10">
                     <span className="block text-[10px] uppercase tracking-wider text-scrapbook-tan/70 mb-0.5">Module</span>
                     <span className="font-medium text-scrapbook-paper">Professional Skills - IT1215</span>
                   </div>

@@ -138,17 +138,6 @@ export default function App() {
             );
           })}
         </nav>
-
-        {/* Sidebar Footer Decoration */}
-        <div className="p-5 border-t border-white/5 opacity-80 relative z-10 mt-auto">
-          <svg className="w-full h-4 text-scrapbook-tan/30 mb-3" viewBox="0 0 100 10" preserveAspectRatio="none">
-            <path d="M0 5 Q 12.5 0, 25 5 T 50 5 T 75 5 T 100 5" fill="transparent" stroke="currentColor" strokeWidth="1" />
-          </svg>
-          <div className="border border-scrapbook-tan/30 p-3 rounded-sm inline-block w-full backdrop-blur-sm bg-white/5 shadow-md transform rotate-1 hover:rotate-0 transition-transform">
-            <p className="font-handwriting text-3xl text-center text-scrapbook-glow">Rahul Arambepola</p>
-            <p className="text-[10px] text-center uppercase tracking-[0.2em] mt-1 text-scrapbook-paper/60 font-sans font-semibold">HND in IT - June 2024 Intake</p>
-          </div>
-        </div>
       </aside>
 
       {/* Main Content Area (Scrapbook Pages) */}
