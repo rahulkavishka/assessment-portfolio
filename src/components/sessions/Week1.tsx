@@ -189,7 +189,7 @@ export const Week1: React.FC = () => {
       <section className="relative animate-in fade-in slide-in-from-bottom-8 duration-700 stagger-2">
         <SectionHeader title="Portfolio Paths" icon={<User size={32} />} />
 
-        <p className="font-serif text-lg leading-relaxed text-scrapbook-ink/90 max-w-3xl mb-6">
+        <p className="font-serif text-lg leading-relaxed text-scrapbook-ink/90 max-w-5xl mb-6">
           Exploring two distinct paths of self-presentation based on goals, content focus, and layout requirements.
         </p>
 

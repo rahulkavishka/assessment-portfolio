@@ -155,7 +155,7 @@ export const Week2: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="The Johari Window" icon={<Eye size={32} />} />
 
-        <p className="font-serif text-lg text-scrapbook-ink/90 max-w-3xl mb-6">
+        <p className="font-serif text-lg text-scrapbook-ink/90 max-w-5xl mb-6">
           The <strong>Johari Window</strong> is a 2×2 grid that helps you understand yourself through the lens of what <em>you</em> know and what <em>others</em> know about you.
         </p>
 
