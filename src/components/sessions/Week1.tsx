@@ -27,12 +27,12 @@ export const Week1: React.FC = () => {
 
               <StickyNote color="tan" rotation="left" variant="folded" className="flex-1">
                 <Tape variant="washi-dots" className="-top-4 left-1/2 -translate-x-1/2" />
-                <strong className="block text-lg mb-1 font-handwriting text-3xl">Port (Harbor)</strong>
+                <strong className="block mb-1 font-handwriting text-3xl">Port (Harbor)</strong>
                 A place to dock or store treasures safely.
               </StickyNote>
 
               <StickyNote color="yellow" rotation="right" variant="pinned" className="flex-1 mt-4 sm:mt-0">
-                <strong className="block text-lg mb-1 font-handwriting text-3xl mt-2">Folio (Sheet)</strong>
+                <strong className="block mb-1 font-handwriting text-3xl mt-2">Folio (Sheet)</strong>
                 A collection of pages or ideas.
               </StickyNote>
             </div>
