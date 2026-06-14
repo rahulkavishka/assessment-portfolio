@@ -6,37 +6,7 @@ import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
 import { PaperClip } from '../scrapbook/PaperClip';
 import { Stamp } from '../scrapbook/Stamp';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { ClipboardList, Calendar, Lightbulb, Crown } from 'lucide-react';
-
-const agendaMindmap = `mindmap
-  root((Types of Agendas))
-    Meeting Agenda
-      Internal team discussions
-      Project status updates
-    Workshop Agenda
-      Skill-building sessions
-      Hands-on training
-    Conference Agenda
-      Multi-session large events
-      Multiple speakers and tracks
-    Training Agenda
-      Learning and development sessions
-    Community Agenda
-      Cultural or public events`;
-
-const meetingTypesGraph = `graph TD
-    A["📅 Meeting Types"] --> B["👥 Staff Meetings\\nRegular team updates"]
-    A --> C["🔨 Project Meetings\\nProgress tracking and problem-solving"]
-    A --> D["📐 Planning Meetings\\nStrategic planning and goal-setting"]
-    A --> E["🔍 Review Meetings\\nEvaluating outcomes and performance"]
-    A --> F["💡 Problem-Solving Meetings\\nAddressing specific challenges"]`;
-
-const meetingStructure = `flowchart LR
-    A["1️⃣\\nPreparation"] --> B["2️⃣\\nOpening"]
-    B --> C["3️⃣\\nAgenda\\nDiscussion"]
-    C --> D["4️⃣\\nDecision\\nMaking"]
-    D --> E["5️⃣\\nClosing"]`;
 
 export const Week6: React.FC = () => {
   return (
@@ -59,7 +29,7 @@ export const Week6: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div className="space-y-5">
             <p className="text-lg leading-relaxed text-scrapbook-ink/90 font-serif">
-              An agenda is a <strong className="text-scrapbook-ink font-semibold">structured outline of topics, activities, and sessions</strong> for any meeting or event. It is a <em>strategic tool</em> — not just a to-do list — that:
+              An agenda is a <strong className="text-scrapbook-ink font-semibold">structured outline of topics, activities, and sessions</strong> for any meeting or event. It is a <em>strategic tool</em> - not just a to-do list - that:
             </p>
             <div className="space-y-2">
               {[
@@ -70,13 +40,18 @@ export const Week6: React.FC = () => {
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 bg-scrapbook-paperDark/20 p-3 rounded-sm">
                   <span className="text-scrapbook-accent flex-shrink-0 mt-0.5">◆</span>
-                  <span className="font-serif text-scrapbook-ink/90 text-[15px]">{item}</span>
+                  <span className="font-serif text-scrapbook-ink/90 text-[16px]">{item}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          <MermaidDiagram chart={agendaMindmap} caption="Types of Agendas" />
+          <Polaroid
+            src="/Week 6/agendas.png"
+            alt="types of agendas"
+          >
+            <Tape variant="gold" className="-top-4 right-10 z-50 -rotate-3" />
+          </Polaroid>
         </div>
       </section>
 
@@ -99,8 +74,8 @@ export const Week6: React.FC = () => {
           ].map((item) => (
             <div key={item.title} className="bg-scrapbook-paperDark/30 border border-scrapbook-tan/15 rounded-sm p-4 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md">
               <span className="text-2xl">{item.icon}</span>
-              <h5 className="font-serif font-bold text-scrapbook-ink text-sm mt-2">{item.title}</h5>
-              <p className="font-serif text-scrapbook-ink/70 text-xs mt-1">{item.desc}</p>
+              <h5 className="font-serif font-bold text-scrapbook-ink text-md mt-2">{item.title}</h5>
+              <p className="font-serif text-scrapbook-ink/70 text-sm mt-1">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -112,17 +87,15 @@ export const Week6: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Types of Meetings" icon={<Calendar size={32} />} />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          <MermaidDiagram chart={meetingTypesGraph} caption="Meeting Types Overview" />
-
-          <Polaroid
-            src="/Week 6/Types of Meetings Radial Mind Map.png"
-            alt="Types of Meetings Radial Mind Map"
-            caption="Meeting Types Infographic"
-            rotation="right"
-          >
-            <Tape variant="rose" className="-top-4 right-10 z-50 -rotate-3" />
-          </Polaroid>
+        <div className="flex justify-center">
+          <div className="w-full max-w-md lg:max-w-xl">
+            <Polaroid
+              src="/Week 6/Types of Meetings Radial Mind Map.png"
+              alt="Types of Meetings Radial Mind Map"
+            >
+              <Tape variant="rose" className="-top-4 right-10 z-50 -rotate-3" />
+            </Polaroid>
+          </div>
         </div>
       </section>
 
@@ -131,8 +104,6 @@ export const Week6: React.FC = () => {
       {/* 5-Step Meeting Structure */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="The 5-Step Meeting Structure" />
-
-        <MermaidDiagram chart={meetingStructure} caption="Meeting Flow" className="max-w-4xl mb-6" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 max-w-5xl">
           {[
@@ -144,8 +115,8 @@ export const Week6: React.FC = () => {
           ].map((item) => (
             <div key={item.step} className="bg-scrapbook-paperDark/20 p-4 rounded-sm border-t-4 border-scrapbook-accent/50 text-center hover:-translate-y-1 transition-all duration-300">
               <span className="w-8 h-8 rounded-full bg-scrapbook-accent text-scrapbook-bg flex items-center justify-center text-sm font-bold mx-auto font-sans">{item.step}</span>
-              <strong className="font-serif text-scrapbook-ink text-sm block mt-2">{item.title}</strong>
-              <span className="font-serif text-scrapbook-ink/70 text-xs">{item.desc}</span>
+              <strong className="font-serif text-scrapbook-ink text-md block mt-2">{item.title}</strong>
+              <span className="font-serif text-scrapbook-ink/80 text-sm">{item.desc}</span>
             </div>
           ))}
         </div>
@@ -165,8 +136,8 @@ export const Week6: React.FC = () => {
                 { role: '👥 Participants', desc: 'Prepare in advance, contribute ideas, stay on topic, respect others' },
               ].map((item) => (
                 <div key={item.role} className="bg-scrapbook-paperDark/30 p-4 rounded-sm border-l-4 border-scrapbook-accent/50">
-                  <strong className="font-serif text-scrapbook-ink text-sm block">{item.role}</strong>
-                  <span className="font-serif text-scrapbook-ink/70 text-xs">{item.desc}</span>
+                  <strong className="font-serif text-scrapbook-ink text-md block">{item.role}</strong>
+                  <span className="font-serif text-scrapbook-ink/80 text-sm">{item.desc}</span>
                 </div>
               ))}
             </div>
@@ -176,11 +147,11 @@ export const Week6: React.FC = () => {
             <SectionHeader title="Meeting Etiquette" />
             <StickyNote color="yellow" rotation="right" variant="pinned">
               <ul className="space-y-3 text-[14px] mt-2">
-                <li>⏰ <strong>Punctuality</strong> — Arrive prepared and on time</li>
-                <li>📋 <strong>Preparation</strong> — Read the agenda before attending</li>
-                <li>🗣️ <strong>Clarity</strong> — Speak clearly and concisely</li>
-                <li>🤫 <strong>Active listening</strong> — Don't interrupt; wait your turn</li>
-                <li>📵 <strong>No distractions</strong> — Phones and laptops away unless required</li>
+                <li>⏰ <strong>Punctuality</strong> - Arrive prepared and on time</li>
+                <li>📋 <strong>Preparation</strong> - Read the agenda before attending</li>
+                <li>🗣️ <strong>Clarity</strong> - Speak clearly and concisely</li>
+                <li>🤫 <strong>Active listening</strong> - Don't interrupt; wait your turn</li>
+                <li>📵 <strong>No distractions</strong> - Phones and laptops away unless required</li>
               </ul>
             </StickyNote>
           </div>
@@ -191,26 +162,26 @@ export const Week6: React.FC = () => {
 
       {/* Mock Meeting Activity */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
-        <SectionHeader title="Activity: Mock Meeting — Startup Café" icon={<Crown size={32} />} />
+        <SectionHeader title="Activity: Mock Meeting - Musical & Food Festival" icon={<Crown size={32} />} />
 
-        <p className="font-serif text-lg text-scrapbook-ink/90 mb-6 max-w-3xl">
-          We performed a full mock meeting in the <strong>7th-floor board meeting room</strong> using the Startup Café business scenario. I was selected as <strong>Chairperson (CEO)</strong>:
+        <p className="font-serif text-md text-scrapbook-ink/90 mb-6 max-w-5xl">
+          Participated in a structured group negotiation representing the <strong>"Odyssey" event planner group</strong>. We conducted a mock negotiation meeting in the boardroom, covering a full <strong>5-step negotiation flow</strong> on holding a musical festival with a food festival at the university.
         </p>
 
-        <div className="relative max-w-3xl">
+        <div className="relative max-w-5xl">
           <PaperClip variant="gold" className="-top-8 -left-2" />
           <div className="bg-[#fdfbf7] p-6 rounded-sm shadow-md border border-scrapbook-tan/20 overflow-hidden">
             <div className="absolute inset-0 pointer-events-none opacity-20 rounded-sm mix-blend-multiply" style={{ backgroundImage: 'url("/cream-paper.png")' }} />
-            <Stamp text="CEO" color="red" rotation="-rotate-12" className="top-2 right-4 opacity-40 scale-75" />
+            <Stamp text="SPONSOR" color="blue" rotation="-rotate-12" className="top-2 right-4 opacity-40 scale-75" />
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 relative z-10">
               {[
-                { role: '🪑 Chairperson (CEO)', person: 'Rahul Arambepola', highlight: true },
-                { role: '📝 Secretary', person: 'Avinash' },
-                { role: '💰 Finance Analyst', person: 'Madushan' },
-                { role: '📣 Marketing Analyst', person: 'Sangeeth' },
-                { role: '⚙️ Operations Head', person: 'Sahan' },
-                { role: '👥 HR Coordinator', person: 'Methmal' },
+                { role: '👑 Event Manager', person: 'Aathif' },
+                { role: '💰 Finance Coordinator', person: 'Nipuna' },
+                { role: '🤝 Sponsorship Coordinator (Me)', person: 'Rahul Arambepola', highlight: true },
+                { role: '📅 Party Planner', person: 'Oshadha' },
+                { role: '📣 Marketing & Promotions', person: 'Shanaka' },
+                { role: '⚙️ Logistics & Operations', person: 'Avishka' },
               ].map((item) => (
                 <div key={item.role} className={`p-3 rounded-sm ${item.highlight ? 'bg-scrapbook-accent/15 border-2 border-scrapbook-accent/40' : 'bg-scrapbook-paperDark/20 border border-scrapbook-tan/10'}`}>
                   <span className="font-serif text-xs text-scrapbook-ink/60 block">{item.role}</span>
@@ -221,9 +192,9 @@ export const Week6: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-6 bg-scrapbook-paperDark/40 border-l-4 border-scrapbook-accent p-5 rounded-r-md font-serif text-scrapbook-ink/90 text-base shadow-sm max-w-3xl">
+        <div className="mt-6 bg-scrapbook-paperDark/40 border-l-4 border-scrapbook-accent p-5 rounded-r-md font-serif text-scrapbook-ink/90 text-base shadow-sm max-w-5xl">
           <span className="font-bold uppercase tracking-wider text-xs block text-scrapbook-accent mb-2">Experience</span>
-          Following the complete 5-step structure in a real boardroom setting was an experience unlike anything in a typical classroom.
+          Structuring the event proposals, managing budgeting constraints, and navigating the 5-step negotiation process in a mock boardroom setting taught us how to align diverse stakeholder interests under pressure.
         </div>
       </section>
 
@@ -241,10 +212,10 @@ export const Week6: React.FC = () => {
             <Tape variant="washi-stripes" className="-top-4 left-1/2 -translate-x-1/2 z-50" />
             <h4 className="font-handwriting text-3xl text-scrapbook-ink mb-3 relative z-10">✍️ Personal Reflection</h4>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10">
-              Before this session, I assumed running a meeting was simply gathering people and talking through issues until something was decided. Leading the Startup Café meeting as Chairperson completely revised that assumption. Having a structured agenda meant I could redirect off-topic conversations and ensure every role contributed.
+              Before this session, I assumed running a meeting was simply gathering people and talking through issues. Representing the Odyssey group as the Sponsorship Coordinator in a complex negotiation meeting completely revised that assumption. Having to prepare our stance, manage our budget limits, and execute the 8-step negotiation process meant every role had to be fully aligned and prepared.
             </p>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10 mt-3">
-              Sitting in a formal boardroom and following professional protocols made the experience feel surprisingly real. That environment — the table, the roles, the formal language — changed how I carried myself. I felt more confident, more deliberate, and more professional.
+              Sitting in a formal boardroom and negotiating our positions made the experience feel surprisingly real. Having to secure sponsorships and present our financial and promotional plans changed how I carried myself. I felt more confident, more deliberate, and more professional.
             </p>
           </div>
         </div>
@@ -253,18 +224,18 @@ export const Week6: React.FC = () => {
           <StickyNote title="🌟 Key Takeaways" color="blue" rotation="left" variant="folded">
             <Tape variant="washi-dots" className="-top-4 right-10" />
             <ul className="space-y-3 list-disc pl-4 marker:text-blue-500 text-[15px]">
-              <li>An agenda is a <em>strategic</em> tool — the difference between a productive meeting and a wasted hour.</li>
+              <li>An agenda is a <em>strategic</em> tool - the difference between a productive meeting and a wasted hour.</li>
               <li>Every agenda needs the standard formal format with all essential components.</li>
               <li>Meetings follow a clear 5-step structure: Prepare → Open → Discuss → Decide → Close.</li>
               <li>The Chairperson and Secretary are the most critical roles for a smooth meeting.</li>
-              <li>Meeting etiquette — punctuality, preparation, listening — is just as important as the agenda.</li>
+              <li>Meeting etiquette - punctuality, preparation, listening - is just as important as the agenda.</li>
               <li>Mock meetings build genuine confidence for real professional environments.</li>
             </ul>
           </StickyNote>
 
           <StickyNote title="🚀 Application to Real Life" color="green" rotation="right" variant="pinned">
             <ul className="space-y-4 list-disc pl-4 marker:text-green-500 text-[15px] mt-2">
-              <li><strong>Now:</strong> Using the proper agenda format for all group project meetings — with time slots, facilitators, and clear action items.</li>
+              <li><strong>Now:</strong> Using the proper agenda format for all group project meetings - with time slots, facilitators, and clear action items.</li>
               <li><strong>Future:</strong> Applying the 5-step structure whenever leading or participating in professional team discussions.</li>
               <li><strong>Long-term:</strong> These skills will serve me in every client meeting, sprint planning session, and stakeholder presentation throughout my IT career.</li>
             </ul>

@@ -4,24 +4,7 @@ import { StickyNote } from '../scrapbook/StickyNote';
 import { Tape } from '../scrapbook/Tape';
 import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
-import { Stamp } from '../scrapbook/Stamp';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { Handshake, Shield, Lightbulb, Swords } from 'lucide-react';
-
-const negotiationBehaviours = `graph TD
-    A["🤝 Negotiation Behaviours\\nGavin Kennedy"] --> B["❌ Manipulation\\nOne-sided — exploits the other party for personal gain"]
-    A --> C["✅ Win-Win\\nBoth parties achieve their core goals"]
-    A --> D["🤲 Good Intentions\\nTwo-way exchange with genuine compromise"]`;
-
-const negotiationProcess = `flowchart LR
-    A["1️⃣\\nOpening\\nState your position"] --> B["2️⃣\\nExploration\\nUnderstand their needs"]
-    B --> C["3️⃣\\nCreate Movement\\nMake concessions"]
-    C --> D["4️⃣\\nCreate Closure\\nWork toward agreement"]
-    D --> E["5️⃣\\nClosing\\nFormalise the deal"]`;
-
-const meFirstVsWeFirst = `graph LR
-    A["Negotiation Approach"] --> B["🥊 Me First\\nWin / Lose\\nShort-term gain\\nDamages relationships"]
-    A --> C["🤝 We First\\nWin / Win\\nLong-term value\\nPreserves relationships"]`;
 
 export const Week7: React.FC = () => {
   return (
@@ -32,8 +15,8 @@ export const Week7: React.FC = () => {
         <span className="font-sans text-xs uppercase tracking-[0.3em] text-scrapbook-accent font-bold">Week 7</span>
         <h2 className="font-handwriting text-5xl sm:text-6xl text-scrapbook-ink mt-1 transform -rotate-1">🤝 Types of Negotiations</h2>
         <p className="font-serif text-sm text-scrapbook-ink/60 mt-1">Lecturer: Ms. Lelani Kandegamage · 24/03/2026</p>
-        <p className="font-serif text-base text-scrapbook-ink/70 mt-2 max-w-2xl mx-auto italic">
-          Negotiation as a core professional skill — strategies, tactics, frameworks, and the win-win mindset.
+        <p className="font-serif text-base text-scrapbook-ink/70 mt-2 max-w-5xl mx-auto italic">
+          Negotiation as a core professional skill - strategies, tactics, frameworks, and the win-win mindset.
         </p>
       </section>
 
@@ -41,11 +24,11 @@ export const Week7: React.FC = () => {
       <section className="relative animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="What is Negotiation?" icon={<Handshake size={32} />} />
 
-        <p className="text-lg leading-relaxed text-scrapbook-ink/90 font-serif mb-6 max-w-3xl">
+        <p className="text-lg leading-relaxed text-scrapbook-ink/90 font-serif mb-6 max-w-5xl">
           Negotiation is far more than arguing for what you want. It is a <strong>key life skill</strong> applied daily in professional contexts:
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mb-6">
           {[
             { emoji: '💼', text: 'Job offers and salary discussions' },
             { emoji: '🗓️', text: 'Project scope, timelines, and deadlines' },
@@ -55,7 +38,7 @@ export const Week7: React.FC = () => {
           ].map((item, i) => (
             <div key={i} className="bg-scrapbook-paperDark/30 border border-scrapbook-tan/15 rounded-sm p-4 hover:-translate-y-1 transition-all duration-300">
               <span className="text-2xl block mb-2">{item.emoji}</span>
-              <p className="font-serif text-scrapbook-ink/90 text-[14px]">{item.text}</p>
+              <p className="font-serif text-scrapbook-ink/90 text-[16px]">{item.text}</p>
             </div>
           ))}
         </div>
@@ -70,7 +53,16 @@ export const Week7: React.FC = () => {
       {/* Kennedy's 3 Behaviours */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Gavin Kennedy's 3 Negotiation Behaviours" />
-        <MermaidDiagram chart={negotiationBehaviours} caption="Three Approaches to Negotiation" className="max-w-4xl" />
+        <div className="flex justify-center">
+          <div className="w-full max-w-lg">
+            <Polaroid
+              src="/Week 7/3beha.png"
+              alt="Types of Meetings Radial Mind Map"
+            >
+              <Tape variant="rose" className="-top-4 right-10 z-50 -rotate-3" />
+            </Polaroid>
+          </div>
+        </div>
       </section>
 
       <SectionDivider variant="dots" className="my-6" />
@@ -78,8 +70,6 @@ export const Week7: React.FC = () => {
       {/* 5-Step Process + Image */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="The 5-Step Negotiation Process" />
-
-        <MermaidDiagram chart={negotiationProcess} caption="Negotiation Flow" className="max-w-4xl mb-6" />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div className="space-y-3">
@@ -103,8 +93,6 @@ export const Week7: React.FC = () => {
           <Polaroid
             src="/Week 7/Negotiation Staircase BATNA ZOPA Cards.png"
             alt="Negotiation Staircase with BATNA and ZOPA"
-            caption="Negotiation Staircase"
-            rotation="right"
           >
             <Tape variant="gold" className="-top-4 right-10 z-50 -rotate-3" />
           </Polaroid>
@@ -131,8 +119,8 @@ export const Week7: React.FC = () => {
             { tactic: 'Change the Negotiator', desc: 'Swap your negotiator mid-process to reset expectations' },
           ].map((item) => (
             <div key={item.tactic} className="bg-scrapbook-paperDark/30 border border-scrapbook-tan/15 rounded-sm p-3 hover:border-scrapbook-accent/30 transition-colors">
-              <strong className="font-serif text-scrapbook-ink text-sm block">{item.tactic}</strong>
-              <span className="font-serif text-scrapbook-ink/70 text-xs">{item.desc}</span>
+              <strong className="font-serif text-scrapbook-ink text-md block">{item.tactic}</strong>
+              <span className="font-serif text-scrapbook-ink/80 text-sm">{item.desc}</span>
             </div>
           ))}
         </div>
@@ -144,12 +132,12 @@ export const Week7: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Key Negotiation Concepts" icon={<Shield size={32} />} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mb-8">
+        <div className="flex justify-center gap-6 max-w-5xl mb-8">
           <StickyNote color="tan" rotation="left" variant="folded">
             <Tape variant="dark" className="-top-4 left-6 -rotate-6" />
             <h4 className="font-handwriting text-3xl mb-2">🛡️ BATNA</h4>
             <p className="font-serif text-[15px] italic text-scrapbook-ink/90 mb-2">Best Alternative To a Negotiated Agreement</p>
-            <p className="font-serif text-[14px] text-scrapbook-ink/80">
+            <p className="font-serif text-[14px] text-scrapbook-ink/90">
               Your strongest backup plan if talks fail. Know it before you enter any negotiation.
             </p>
           </StickyNote>
@@ -164,11 +152,18 @@ export const Week7: React.FC = () => {
           </StickyNote>
         </div>
 
-        {/* Me First vs We First */}
-        <MermaidDiagram chart={meFirstVsWeFirst} caption="Me First vs We First Approach" className="max-w-3xl" />
-
-        <blockquote className="border-l-4 border-scrapbook-accent/50 pl-4 italic text-scrapbook-ink/80 font-serif mt-6 max-w-3xl">
-          In professional life, <strong>We First (Win/Win)</strong> almost always produces better long-term outcomes. You work with the same people again — burning bridges is never worth it.
+        <div className="flex justify-center">
+          <div className="w-full max-w-xl">
+            <Polaroid
+              src="/Week 7/me first.png"
+              alt="Negotiation Staircase with BATNA and ZOPA"
+            >
+              <Tape variant="gold" className="-top-4 right-10 z-50 -rotate-3" />
+            </Polaroid>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-scrapbook-accent/50 pl-4 italic text-scrapbook-ink/80 font-serif mt-6 max-w-5xl">
+          In professional life, <strong>We First (Win/Win)</strong> almost always produces better long-term outcomes. You work with the same people again - burning bridges is never worth it.
         </blockquote>
       </section>
 
@@ -178,7 +173,7 @@ export const Week7: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Top 10 Effective Negotiation Skills" />
 
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-4xl">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-5xl">
           {[
             { emoji: '🧩', skill: 'Problem Analysis' },
             { emoji: '👂', skill: 'Active Listening' },
@@ -192,9 +187,9 @@ export const Week7: React.FC = () => {
             { emoji: '🌐', skill: 'Interpersonal Skills' },
           ].map((item, i) => (
             <div key={item.skill} className="bg-scrapbook-paperDark/30 border border-scrapbook-tan/15 rounded-sm p-3 text-center hover:-translate-y-1 transition-all duration-300">
-              <span className="text-xl">{item.emoji}</span>
-              <span className="w-5 h-5 rounded-full bg-scrapbook-accent/20 text-scrapbook-accent flex items-center justify-center text-[10px] font-bold mx-auto font-sans mt-1 mb-1">{i + 1}</span>
-              <p className="font-serif text-scrapbook-ink text-xs font-bold">{item.skill}</p>
+              <span className="text-2xl">{item.emoji}</span>
+              <span className="w-5 h-5 rounded-full bg-scrapbook-accent/20 text-scrapbook-accent flex items-center justify-center text-[13px] font-bold mx-auto font-sans mt-1 mb-1">{i + 1}</span>
+              <p className="font-serif text-scrapbook-ink text-sm font-bold">{item.skill}</p>
             </div>
           ))}
         </div>
@@ -214,10 +209,10 @@ export const Week7: React.FC = () => {
             <Tape variant="washi-stripes" className="-top-4 left-1/2 -translate-x-1/2 z-50" />
             <h4 className="font-handwriting text-3xl text-scrapbook-ink mb-3 relative z-10">✍️ Personal Reflection</h4>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10">
-              Before this session, I assumed negotiation was reserved for high-stakes business deals or buying a car. The lecture revealed that I negotiate every single day — when dividing up group project tasks, when discussing deadline extensions with lecturers, when deciding whose design approach the team follows.
+              Before this session, I assumed negotiation was reserved for high-stakes business deals or buying a car. The lecture revealed that I negotiate every single day - when dividing up group project tasks, when discussing deadline extensions with lecturers, when deciding whose design approach the team follows.
             </p>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10 mt-3">
-              The 5-step framework gave me language for something I was doing intuitively but inconsistently. I found myself most drawn to the Win-Win philosophy — it reflects the kind of collaborator I aspire to be. In IT, where you work with the same people across multiple projects and years, maintaining relationships is just as valuable as winning a single argument.
+              The 5-step framework gave me language for something I was doing intuitively but inconsistently. I found myself most drawn to the Win-Win philosophy - it reflects the kind of collaborator I aspire to be. In IT, where you work with the same people across multiple projects and years, maintaining relationships is just as valuable as winning a single argument.
             </p>
           </div>
         </div>
@@ -239,7 +234,7 @@ export const Week7: React.FC = () => {
             <ul className="space-y-4 list-disc pl-4 marker:text-green-500 text-[15px] mt-2">
               <li><strong>Now:</strong> Using the 5-step structure in group project discussions; always preparing my BATNA before negotiating deadlines.</li>
               <li><strong>Future:</strong> Applying active listening and win-win thinking in all client and team negotiations during my IT career.</li>
-              <li><strong>Long-term:</strong> Salary negotiations, project scoping, vendor agreements — these skills will matter at every career stage.</li>
+              <li><strong>Long-term:</strong> Salary negotiations, project scoping, vendor agreements - these skills will matter at every career stage.</li>
             </ul>
           </StickyNote>
         </div>

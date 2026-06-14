@@ -40,7 +40,7 @@ This document contains a full textual extraction of the academic theories, stude
 ## 📚 Page: Week 1: The Harbor
 
 ### Core Lecture Theory: The "Harbor" Concept
-* **Etymology & Definition:** A portfolio is literally a **"Harbor of your sheets"** — a safe place where work, ideas, and creations are collected, preserved, and displayed.
+* **Etymology & Definition:** A portfolio is literally a **"Harbor of your sheets"** - a safe place where work, ideas, and creations are collected, preserved, and displayed.
   * **Port (Harbor):** A place to dock or store treasures safely.
   * **Folio (Sheet):** A collection of pages or ideas.
 

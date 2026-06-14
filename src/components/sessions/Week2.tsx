@@ -4,28 +4,7 @@ import { StickyNote } from '../scrapbook/StickyNote';
 import { Tape } from '../scrapbook/Tape';
 import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
-import { PaperClip } from '../scrapbook/PaperClip';
-import { Stamp } from '../scrapbook/Stamp';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { Briefcase, Eye, Lightbulb, Target } from 'lucide-react';
-
-const skillsGraph = `graph TD
-    A["🏢 Workplace Skills"] --> B["🔧 Technical Skills"]
-    A --> C["🤝 Soft Skills"]
-    A --> D["🔄 Transferable Skills"]
-    B --> B1["Specific tools & knowledge\\ne.g. Java, Python, SQL"]
-    C --> C1["Interpersonal abilities\\ne.g. Communication, Teamwork"]
-    D --> D1["Usable across any role\\ne.g. Problem-Solving, Adaptability"]`;
-
-const benefitsMindmap = `mindmap
-  root((Benefits of Professional Skills))
-    Improved workplace performance and productivity
-    Increased career growth and job opportunities
-    Enhanced communication and interpersonal skills
-    Stronger professional relationships
-    Better teamwork and collaboration
-    Improved problem-solving and decision-making
-    Adaptability to changing work environments`;
 
 export const Week2: React.FC = () => {
   return (
@@ -100,7 +79,6 @@ export const Week2: React.FC = () => {
             <Polaroid
               src="/Week 2/Three Skill Categories Triangle.png"
               alt="Three Skill Categories Triangle"
-              rotation="left"
             >
               <Tape variant="gold" className="-top-4 left-10 z-50 rotate-3" />
             </Polaroid>
@@ -145,7 +123,6 @@ export const Week2: React.FC = () => {
             <Polaroid
               src="/Week 2/Benefits of Professional Skills Wheel.png"
               alt="Benefits of Professional Skills Wheel"
-              rotation="right"
             >
               <Tape variant="rose" className="-top-4 right-10 z-50 -rotate-3" />
             </Polaroid>
@@ -187,7 +164,6 @@ export const Week2: React.FC = () => {
             <Polaroid
               src="/Week 2/Johari Window Diagram.png"
               alt="Johari Window Diagram"
-              rotation="left"
             >
               <Tape
                 variant="dark"
@@ -242,10 +218,10 @@ export const Week2: React.FC = () => {
             <Tape variant="washi-stripes" className="-top-4 left-1/2 -translate-x-1/2 z-50" />
             <h4 className="font-handwriting text-3xl text-scrapbook-ink mb-3 relative z-10">✍️ Personal Reflection</h4>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10">
-              This module gave me a much clearer understanding that being a good IT professional isn't just about coding ability. The skills match-up activity showed how every role — even technical ones — requires a mix of human skills. The Johari Window was the most impactful part: seeing qualities others recognise in you that you've overlooked is a genuinely humbling and motivating experience.
+              This module gave me a much clearer understanding that being a good IT professional isn't just about coding ability. The skills match-up activity showed how every role - even technical ones - requires a mix of human skills. The Johari Window was the most impactful part: seeing qualities others recognise in you that you've overlooked is a genuinely humbling and motivating experience.
             </p>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10 mt-3">
-              I left the session thinking about how I present myself — not just on paper, but in every group interaction.
+              I left the session thinking about how I present myself - not just on paper, but in every group interaction.
             </p>
           </div>
         </div>
@@ -254,11 +230,11 @@ export const Week2: React.FC = () => {
           <StickyNote title="🌟 Key Takeaways" color="blue" rotation="left" variant="folded">
             <Tape variant="washi-dots" className="-top-4 right-10" />
             <ul className="space-y-3 list-disc pl-4 marker:text-blue-500 text-[15px]">
-              <li>Professional skills are just as important as technical skills — employers hire for both.</li>
+              <li>Professional skills are just as important as technical skills - employers hire for both.</li>
               <li>Workplace skills fall into three groups: Technical, Soft, and Transferable.</li>
               <li>Values, attitudes, and character shape how we behave in professional environments.</li>
               <li>The Johari Window is a simple but powerful tool for increasing self-awareness.</li>
-              <li>Feedback from others can reveal "blind spots" — strengths we've never noticed ourselves.</li>
+              <li>Feedback from others can reveal "blind spots" - strengths we've never noticed ourselves.</li>
             </ul>
           </StickyNote>
 

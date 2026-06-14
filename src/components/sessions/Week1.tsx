@@ -6,24 +6,7 @@ import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
 import { PaperClip } from '../scrapbook/PaperClip';
 import { Stamp } from '../scrapbook/Stamp';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { Compass, Users, User, Lightbulb } from 'lucide-react';
-
-const platformsMindmap = `mindmap
-  root((Portfolio Platforms))
-    Developers
-      GitHub Pages
-      GitLab Pages
-    Designers
-      Adobe Portfolio
-      Cargo
-    Writers
-      Journo Portfolio
-      Medium
-    General
-      Squarespace
-      Pathbrite
-      LinkedIn`;
 
 export const Week1: React.FC = () => {
   return (
@@ -139,7 +122,6 @@ export const Week1: React.FC = () => {
             <Polaroid
               src="/Week 1/Portfolio Platforms Infographic.png"
               alt="Portfolio Platforms Infographic"
-              rotation="left"
             >
               <Tape variant="sage" className="-top-4 left-10 z-50 rotate-3" />
             </Polaroid>
@@ -154,39 +136,50 @@ export const Week1: React.FC = () => {
         <SectionHeader title="Task 1: Group Portfolio" icon={<Users size={32} />} />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-4">
-          <div className="lg:col-span-6 relative mx-auto w-full max-w-xl">
-            <Polaroid
-              src="/2.png"
-              alt="Mind Map Diagram"
-              rotation="left"
-            >
-              <Tape variant="washi-stripes" className="-top-4 left-4 z-50 rotate-3" />
-            </Polaroid>
-          </div>
 
-          <div className="lg:col-span-6 space-y-4">
+          {/* Left Side - Text + Outcome */}
+          <div className="lg:col-span-5 space-y-6">
             <p className="font-serif text-lg text-scrapbook-ink/90">
               As a team, we created a collaborative portfolio defining <strong>"Who We Are"</strong>:
             </p>
 
-            <div className="bg-[#fdfbf7] p-8 rounded-sm shadow-md relative overflow-hidden transition-all duration-300 hover:shadow-lg border border-scrapbook-tan/20 transform rotate-1">
-              <Tape variant="sage" className="-top-3 right-10 -rotate-2" />
-              {/* Notebook lines effect */}
-              <div className="absolute inset-0 pointer-events-none opacity-[0.15]" style={{ backgroundSize: '100% 2rem', backgroundImage: 'linear-gradient(to bottom, transparent 1.9rem, #b59275 2rem)' }}></div>
-
-              <ul className="space-y-6 text-scrapbook-ink/90 font-handwriting text-3xl relative z-10 pl-8 mt-2">
-                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">Defined our team identity - shared backgrounds, goals, and values</li>
-                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">Mapped out collective technical and soft skills</li>
-                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">Established shared semester goals</li>
-              </ul>
-            </div>
-
-            {/* Outcome Tag */}
-            <div className="mt-8 block bg-scrapbook-paperDark/40 border-l-4 border-scrapbook-accent p-5 rounded-r-md font-serif text-scrapbook-ink/90 text-base shadow-sm">
-              <span className="font-bold uppercase tracking-wider text-xs block text-scrapbook-accent mb-2">Outcome</span>
+            <div className="bg-scrapbook-paperDark/40 border-l-4 border-scrapbook-accent p-5 rounded-r-md font-serif text-scrapbook-ink/90 text-base shadow-sm">
+              <span className="font-bold uppercase tracking-wider text-xs block text-scrapbook-accent mb-2">
+                Outcome
+              </span>
               A unified document demonstrating teamwork, communication, and collective vision.
             </div>
           </div>
+
+          {/* Right Side - Notebook */}
+          <div className="lg:col-span-7">
+            <div className="bg-[#fdfbf7] p-8 rounded-sm shadow-md relative overflow-hidden transition-all duration-300 hover:shadow-lg border border-scrapbook-tan/20 transform rotate-1">
+              <Tape variant="sage" className="-top-3 right-10 -rotate-2" />
+
+              {/* Notebook lines effect */}
+              <div
+                className="absolute inset-0 pointer-events-none opacity-[0.15]"
+                style={{
+                  backgroundSize: "100% 2rem",
+                  backgroundImage:
+                    "linear-gradient(to bottom, transparent 1.9rem, #b59275 2rem)",
+                }}
+              ></div>
+
+              <ul className="space-y-6 text-scrapbook-ink/90 font-handwriting text-3xl relative z-10 pl-8 mt-2">
+                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">
+                  Defined our team identity - shared backgrounds, goals, and values
+                </li>
+                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">
+                  Mapped out collective technical and soft skills
+                </li>
+                <li className="relative before:content-['✓'] before:absolute before:-left-8 before:text-green-600 hover:text-scrapbook-accent transition-colors">
+                  Established shared semester goals
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -265,7 +258,7 @@ export const Week1: React.FC = () => {
             <Tape variant="washi-stripes" className="-top-4 left-1/2 -translate-x-1/2 z-50" />
             <h4 className="font-handwriting text-3xl text-scrapbook-ink mb-3 relative z-10">✍️ Personal Reflection</h4>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10">
-              Before this session, I thought a portfolio was just a folder of assignments you hand in at the end of a course. The "Harbor" metaphor changed everything — a portfolio isn't a static submission, it's a <em>living record of growth</em>. As someone studying IT, having a GitHub profile for technical projects and a LinkedIn profile for professional presence feels immediately relevant and urgent.
+              Before this session, I thought a portfolio was just a folder of assignments you hand in at the end of a course. The "Harbor" metaphor changed everything - a portfolio isn't a static submission, it's a <em>living record of growth</em>. As someone studying IT, having a GitHub profile for technical projects and a LinkedIn profile for professional presence feels immediately relevant and urgent.
             </p>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10 mt-3">
               The group portfolio activity also taught me something unexpected: collaborative writing requires compromise, clarity, and a genuine shared vision. That's a skill I'll need in every team I join.

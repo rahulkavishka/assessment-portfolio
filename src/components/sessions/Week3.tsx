@@ -4,53 +4,8 @@ import { StickyNote } from '../scrapbook/StickyNote';
 import { Tape } from '../scrapbook/Tape';
 import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
-import { PaperClip } from '../scrapbook/PaperClip';
 import { Stamp } from '../scrapbook/Stamp';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { Brain, Heart, Lightbulb, Activity } from 'lucide-react';
-
-const emotionsMindmap = `mindmap
-  root((Emotions))
-    Primary Emotions
-      Love
-      Enjoyment
-      Surprise
-      Fear
-      Disgust
-      Sadness
-      Anger
-      Shame
-    Secondary Emotions
-      Guilt
-        Sadness + Self-blame
-      Jealousy
-        Fear + Anger
-      Pride
-        Enjoyment + Self-awareness`;
-
-const eiGraph = `graph LR
-    A["🧠 Emotional Intelligence"] --> B["👁️ Perceiving Emotions\\nReading emotional signals"]
-    A --> C["💡 Understanding Emotions\\nKnowing why emotions occur"]
-    A --> D["⚙️ Using Emotions\\nChannelling feelings productively"]
-    A --> E["🎛️ Managing Emotions\\nRegulating your own and others emotions"]`;
-
-const golemanMindmap = `mindmap
-  root((Goleman's 5 EI Domains))
-    Self-Awareness
-      Recognising your own emotions in the moment
-    Self-Regulation
-      Controlling reactions through mindfulness
-      Reframing situations
-      Problem-solving calmly
-    Motivation
-      Staying positive and goal-focused
-      Internal drive beyond external reward
-    Empathy
-      Sensing and understanding others feelings
-      Responding with care and understanding
-    Social Skills
-      Building strong relationships
-      Communicating effectively in groups`;
 
 export const Week3: React.FC = () => {
   return (
@@ -68,7 +23,7 @@ export const Week3: React.FC = () => {
 
       {/* IQ vs EQ */}
       <section className="relative animate-in fade-in slide-in-from-bottom-8 duration-700">
-        <SectionHeader title="IQ vs EQ — The Crucial Difference" icon={<Brain size={32} />} />
+        <SectionHeader title="IQ vs EQ - The Crucial Difference" icon={<Brain size={32} />} />
         <div className='flex items-center justify-center'>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
             <StickyNote color="blue" rotation="left" variant="folded">
@@ -156,9 +111,9 @@ export const Week3: React.FC = () => {
 
       <SectionDivider variant="wavy" className="my-6" />
 
-      {/* Emotional Intelligence — 4 Abilities */}
+      {/* Emotional Intelligence - 4 Abilities */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
-        <SectionHeader title="Emotional Intelligence — 4 Abilities" />
+        <SectionHeader title="Emotional Intelligence - 4 Abilities" />
         <div className="flex items-center justify-center max-w-4xl mx-auto">
           <Polaroid
             src="/Week 3/4 Abilities → Image Prompt.png"
@@ -179,7 +134,6 @@ export const Week3: React.FC = () => {
           <Polaroid
             src="/Week 3/dani3.jpg"
             alt="Goleman"
-            rotation="left"
           >
             <Tape variant="gold" className="-top-4 left-10 z-50 rotate-3" />
           </Polaroid>
@@ -188,7 +142,6 @@ export const Week3: React.FC = () => {
             src="/Week 3/Goleman's 5 EI Domains Pentagon.png"
             alt="Goleman's 5 EI Domains Pentagon"
             caption="5 Domains Pentagon"
-            rotation="left"
           >
             <Tape variant="gold" className="-top-4 left-10 z-50 rotate-3" />
           </Polaroid>

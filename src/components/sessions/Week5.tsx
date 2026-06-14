@@ -5,17 +5,7 @@ import { Tape } from '../scrapbook/Tape';
 import { SectionHeader } from '../scrapbook/SectionHeader';
 import { SectionDivider } from '../scrapbook/SectionDivider';
 import { PaperClip } from '../scrapbook/PaperClip';
-import { MermaidDiagram } from '../scrapbook/MermaidDiagram';
 import { Search, BookOpen, Lightbulb } from 'lucide-react';
-
-const researchFlowchart = `flowchart TD
-    A["🔍 Problem Identification\\nWhat are we investigating and why?"] --> B
-    B["📚 Literature Review\\nWhat has already been discovered?"] --> C
-    C["🔬 Research Methodology\\nHow will we collect and analyse data?"] --> D
-    D["📊 Data Collection & Analysis\\nGather information and look for patterns"] --> E
-    E["💡 Results & Discussion\\nWhat does the data tell us?"] --> F
-    F["✅ Conclusion & Recommendations\\nSummarise and suggest next steps"] --> G
-    G["📖 References\\nAcknowledge all sources correctly"]`;
 
 export const Week5: React.FC = () => {
   return (
@@ -36,10 +26,10 @@ export const Week5: React.FC = () => {
         <SectionHeader title="Why Research Matters" icon={<Search size={32} />} />
 
         <p className="text-lg leading-relaxed text-scrapbook-ink/90 font-serif mb-6 max-w-3xl">
-          Research is not just for academics — it is a <strong className="text-scrapbook-ink font-semibold">practical professional skill</strong> used daily in IT:
+          Research is not just for academics - it is a <strong className="text-scrapbook-ink font-semibold">practical professional skill</strong> used daily in IT:
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">
           {[
             { icon: '💡', text: 'Developing new ideas and improving existing systems' },
             { icon: '📊', text: 'Making evidence-based decisions rather than assumptions' },
@@ -49,7 +39,7 @@ export const Week5: React.FC = () => {
           ].map((item, i) => (
             <div key={i} className="bg-scrapbook-paperDark/30 border border-scrapbook-tan/15 rounded-sm p-4 hover:-translate-y-1 transition-all duration-300">
               <span className="text-2xl block mb-2">{item.icon}</span>
-              <p className="font-serif text-scrapbook-ink/90 text-[14px]">{item.text}</p>
+              <p className="font-serif text-scrapbook-ink/90 text-[16px]">{item.text}</p>
             </div>
           ))}
         </div>
@@ -65,7 +55,7 @@ export const Week5: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Types of Research" icon={<BookOpen size={32} />} />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-5xl">
           {[
             { type: 'Primary', desc: 'Collecting original data directly', example: 'Surveys of app users, usability testing', color: 'blue' as const },
             { type: 'Secondary', desc: 'Using existing published material', example: 'Literature reviews, reading technical papers', color: 'green' as const },
@@ -87,17 +77,17 @@ export const Week5: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Standard Research Paper Structure" />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          <MermaidDiagram chart={researchFlowchart} caption="The 7-Step Research Process" />
+        <div className="flex justify-center mt-10">
+          <div className="w-full max-w-lg">
+            <Polaroid
+              src="/Week 5/7-Step Research Process Flowchart.png"
+              alt="7-Step Research Process Flowchart"
+              caption="Research Process Infographic"
+            >
+              <Tape variant="gold" className="-top-4 right-10 z-50 -rotate-3" />
+            </Polaroid>
+          </div>
 
-          <Polaroid
-            src="/Week 5/7-Step Research Process Flowchart.png"
-            alt="7-Step Research Process Flowchart"
-            caption="Research Process Infographic"
-            rotation="right"
-          >
-            <Tape variant="gold" className="-top-4 right-10 z-50 -rotate-3" />
-          </Polaroid>
         </div>
       </section>
 
@@ -107,21 +97,21 @@ export const Week5: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Step-by-Step Research Process" />
 
-        <div className="space-y-3 max-w-3xl">
+        <div className="space-y-3 max-w-2xl mx-auto">
           {[
             { step: 1, action: 'Identify the Problem', purpose: "Define precisely what you're investigating and why it matters" },
             { step: 2, action: 'Literature Review', purpose: 'Learn what researchers and practitioners have already discovered' },
             { step: 3, action: 'Choose Methodology', purpose: "Decide how you'll gather and analyse data" },
             { step: 4, action: 'Collect Data', purpose: 'Implement your data collection method rigorously' },
             { step: 5, action: 'Analyse Data', purpose: 'Look for patterns, trends, correlations, and anomalies' },
-            { step: 6, action: 'Results & Discussion', purpose: 'Interpret the data — what does it actually mean?' },
+            { step: 6, action: 'Results & Discussion', purpose: 'Interpret the data - what does it actually mean?' },
             { step: 7, action: 'Conclusion', purpose: 'Summarise findings, acknowledge limitations, suggest future research' },
           ].map((item) => (
             <div key={item.step} className="flex items-start gap-4 bg-scrapbook-paperDark/20 p-4 rounded-sm border border-scrapbook-tan/10 hover:border-scrapbook-accent/30 transition-colors">
               <span className="w-8 h-8 rounded-full bg-scrapbook-accent text-scrapbook-bg flex items-center justify-center text-sm font-bold flex-shrink-0 font-sans">{item.step}</span>
               <div>
-                <strong className="font-serif text-scrapbook-ink text-sm block">{item.action}</strong>
-                <span className="font-serif text-scrapbook-ink/70 text-[13px]">{item.purpose}</span>
+                <strong className="font-serif text-scrapbook-ink text-md block">{item.action}</strong>
+                <span className="font-serif text-scrapbook-ink/70 text-[14px]">{item.purpose}</span>
               </div>
             </div>
           ))}
@@ -134,7 +124,7 @@ export const Week5: React.FC = () => {
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Research Applied to IT" />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-5xl">
           {[
             { scenario: 'Building a mobile app', application: 'Research existing similar apps before designing yours' },
             { scenario: 'Improving database performance', application: 'Benchmark current performance, review optimisation literature' },
@@ -142,8 +132,8 @@ export const Week5: React.FC = () => {
             { scenario: 'Designing a UI', application: 'Conduct user research to inform design decisions' },
           ].map((item) => (
             <div key={item.scenario} className="bg-scrapbook-paperDark/30 p-4 rounded-sm border-l-4 border-scrapbook-accent/50">
-              <strong className="font-serif text-scrapbook-ink text-sm block">🖥️ {item.scenario}</strong>
-              <span className="font-serif text-scrapbook-ink/70 text-[13px]">{item.application}</span>
+              <strong className="font-serif text-scrapbook-ink text-md block">🖥️ {item.scenario}</strong>
+              <span className="font-serif text-scrapbook-ink/70 text-[14px]">{item.application}</span>
             </div>
           ))}
         </div>
@@ -154,16 +144,16 @@ export const Week5: React.FC = () => {
       {/* Academic Honesty */}
       <section className="animate-in fade-in slide-in-from-bottom-8 duration-700">
         <SectionHeader title="Academic Honesty" />
-        <div className="relative max-w-3xl">
+        <div className="relative max-w-5xl">
           <PaperClip variant="gold" className="-top-8 right-4" />
           <StickyNote color="tan" rotation="none">
             <Tape variant="dark" className="-top-4 left-1/2 -translate-x-1/2" />
             <p className="mb-3 font-serif text-[15px]">Good research is built on integrity:</p>
             <ul className="list-disc pl-5 space-y-2 text-[14px]">
-              <li><strong>Proper referencing</strong> — Acknowledge every source used</li>
-              <li><strong>No plagiarism</strong> — Always paraphrase, cite, and credit</li>
-              <li><strong>Transparency</strong> — Describe methods clearly so others can verify findings</li>
-              <li><strong>Accurate reporting</strong> — Report results honestly, even when unexpected</li>
+              <li><strong>Proper referencing</strong> - Acknowledge every source used</li>
+              <li><strong>No plagiarism</strong> - Always paraphrase, cite, and credit</li>
+              <li><strong>Transparency</strong> - Describe methods clearly so others can verify findings</li>
+              <li><strong>Accurate reporting</strong> - Report results honestly, even when unexpected</li>
             </ul>
           </StickyNote>
         </div>
@@ -183,7 +173,7 @@ export const Week5: React.FC = () => {
             <Tape variant="washi-stripes" className="-top-4 left-1/2 -translate-x-1/2 z-50" />
             <h4 className="font-handwriting text-3xl text-scrapbook-ink mb-3 relative z-10">✍️ Personal Reflection</h4>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10">
-              Before this session, I assumed research was only for professors or final-year dissertations. Dr. Janaka's connection between research and building real applications made the topic immediately relevant. The step-by-step structure makes research feel less like an overwhelming academic task and more like structured problem-solving — something we do every time we approach a programming challenge.
+              Before this session, I assumed research was only for professors or final-year dissertations. Dr. Janaka's connection between research and building real applications made the topic immediately relevant. The step-by-step structure makes research feel less like an overwhelming academic task and more like structured problem-solving - something we do every time we approach a programming challenge.
             </p>
             <p className="font-serif text-scrapbook-ink/85 text-[15px] leading-relaxed relative z-10 mt-3">
               This session changed how I approach my assignments. Now I identify the problem first and review what's already been said before jumping into writing or coding.
@@ -205,7 +195,7 @@ export const Week5: React.FC = () => {
 
           <StickyNote title="🚀 Application to Real Life" color="green" rotation="right" variant="pinned">
             <ul className="space-y-4 list-disc pl-4 marker:text-green-500 text-[15px] mt-2">
-              <li><strong>Now:</strong> Applying the research structure to university assignments — problem first, literature second, then analysis.</li>
+              <li><strong>Now:</strong> Applying the research structure to university assignments - problem first, literature second, then analysis.</li>
               <li><strong>Future:</strong> Before starting any project, doing a short literature/market review to understand what's already been built.</li>
               <li><strong>Long-term:</strong> Using research methods in my IT career to develop evidence-based solutions and write credible technical reports.</li>
             </ul>

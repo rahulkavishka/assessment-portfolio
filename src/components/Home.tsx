@@ -102,7 +102,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
         <div className="lg:col-span-7 relative mx-auto w-full max-w-2xl">
           <Polaroid
             src="/Week 1/Harbor Cover Illustration.png"
-            alt="Harbor of Sheets — Portfolio Cover"
+            alt="Harbor of Sheets - Portfolio Cover"
             rotation="right"
           >
             <Tape variant="rose" className="-top-4 right-10 z-50 rotate-12" />

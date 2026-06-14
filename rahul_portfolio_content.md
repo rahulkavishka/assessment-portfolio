@@ -1,10 +1,10 @@
-# 📚 Rahul Arambepola — Professional Skills Portfolio
+# 📚 Rahul Arambepola - Professional Skills Portfolio
 ### Module: IT1215 | HND in Information Technology | June 2024 Intake
 ### Campus: SLIIT City Uni | Registration: SA24610322
 
 ---
 
-## 🏠 HOME — Academic Journal
+## 🏠 HOME - Academic Journal
 
 ### Student Profile
 
@@ -15,16 +15,16 @@
 | **Campus** | SLIIT City Uni |
 | **Course** | HND in Information Technology |
 | **Intake** | June 2024 |
-| **Module** | Professional Skills — IT1215 |
+| **Module** | Professional Skills - IT1215 |
 | **Status** | ✅ Verified Student Log |
 
 ---
 
 ### What is this Portfolio?
 
-This portfolio is a **"Harbor of Sheets"** — a creative, evidence-based scrapbook documenting my learning journey through the Professional Skills module (IT1215).
+This portfolio is a **"Harbor of Sheets"** - a creative, evidence-based scrapbook documenting my learning journey through the Professional Skills module (IT1215).
 
-Rather than a dry document or file directory, this space uses a **scrapbook layout** — polaroids, sticky notes, and sketches — to show that academic growth is an active, iterative, and deeply personal process. Each section captures a week's worth of learning: theory, activities, reflections, and visual mind maps.
+Rather than a dry document or file directory, this space uses a **scrapbook layout** - polaroids, sticky notes, and sketches - to show that academic growth is an active, iterative, and deeply personal process. Each section captures a week's worth of learning: theory, activities, reflections, and visual mind maps.
 
 ---
 
@@ -49,13 +49,13 @@ Rather than a dry document or file directory, this space uses a **scrapbook layo
 
 ## 🗺️ WEEK 1: The Harbor
 
-**Session Overview:** An introduction to portfolios — what they are, why they matter, and how to build one.
+**Session Overview:** An introduction to portfolios - what they are, why they matter, and how to build one.
 
 ---
 
 ### 🔑 Core Theory: The "Harbor" Concept
 
-A portfolio is literally a **"Harbor of your Sheets"** — a safe, organised place where your work, ideas, and creations are collected, preserved, and displayed for the world to see.
+A portfolio is literally a **"Harbor of your Sheets"** - a safe, organised place where your work, ideas, and creations are collected, preserved, and displayed for the world to see.
 
 | Etymology | Meaning |
 |-----------|---------|
@@ -68,9 +68,9 @@ A portfolio is literally a **"Harbor of your Sheets"** — a safe, organised pla
 
 ### Main Functions of a Portfolio
 
-1. **Presenting yourself** — Showcasing your identity, skills, and achievements
-2. **Organising history** — Keeping a structured, searchable record of growth over time
-3. **Discovering strengths** — Identifying capabilities through curated evidence
+1. **Presenting yourself** - Showcasing your identity, skills, and achievements
+2. **Organising history** - Keeping a structured, searchable record of growth over time
+3. **Discovering strengths** - Identifying capabilities through curated evidence
 
 ---
 
@@ -112,8 +112,8 @@ mindmap
 
 | Path | Focus | Examples |
 |------|-------|---------|
-| **Path A — Personal** | Hobbies & Creative Expression | Photography portfolios, travel blogs, art galleries |
-| **Path B — Career** | Employability & Skills | CV, project evidence, technical showcases |
+| **Path A - Personal** | Hobbies & Creative Expression | Photography portfolios, travel blogs, art galleries |
+| **Path B - Career** | Employability & Skills | CV, project evidence, technical showcases |
 
 ---
 
@@ -121,7 +121,7 @@ mindmap
 
 As a team, we created a collaborative portfolio defining **"Who We Are"**:
 
-1. Defined our team identity — shared backgrounds, goals, and values
+1. Defined our team identity - shared backgrounds, goals, and values
 2. Mapped out collective technical and soft skills
 3. Established shared semester goals
 
@@ -131,15 +131,15 @@ As a team, we created a collaborative portfolio defining **"Who We Are"**:
 
 ### 🌟 Key Takeaways
 
-1. **The Harbor Mindset** — A portfolio is a continuous, living storage system. Preserving work now ensures readiness for future opportunities.
-2. **Platform Selection Matters** — LinkedIn and GitHub are essential for professional visibility in the IT industry.
-3. **Collaboration is a Skill** — Merging diverse writing styles and ideas into one unified team voice is itself a professional capability.
+1. **The Harbor Mindset** - A portfolio is a continuous, living storage system. Preserving work now ensures readiness for future opportunities.
+2. **Platform Selection Matters** - LinkedIn and GitHub are essential for professional visibility in the IT industry.
+3. **Collaboration is a Skill** - Merging diverse writing styles and ideas into one unified team voice is itself a professional capability.
 
 ---
 
 ### ✍️ Personal Reflection
 
-Before this session, I thought a portfolio was just a folder of assignments you hand in at the end of a course. The "Harbor" metaphor changed everything — a portfolio isn't a static submission, it's a *living record of growth*. As someone studying IT, having a GitHub profile for technical projects and a LinkedIn profile for professional presence feels immediately relevant and urgent.
+Before this session, I thought a portfolio was just a folder of assignments you hand in at the end of a course. The "Harbor" metaphor changed everything - a portfolio isn't a static submission, it's a *living record of growth*. As someone studying IT, having a GitHub profile for technical projects and a LinkedIn profile for professional presence feels immediately relevant and urgent.
 
 The group portfolio activity also taught me something unexpected: collaborative writing requires compromise, clarity, and a genuine shared vision. That's a skill I'll need in every team I join.
 
@@ -157,7 +157,7 @@ The group portfolio activity also taught me something unexpected: collaborative 
 ## 💼 WEEK 2: Professional Skills
 
 **Lecturer:** Ms. Oshani
-**Session Overview:** Understanding professional skills — their types, components, benefits, and how to develop them for the workplace.
+**Session Overview:** Understanding professional skills - their types, components, benefits, and how to develop them for the workplace.
 
 ---
 
@@ -165,8 +165,8 @@ The group portfolio activity also taught me something unexpected: collaborative 
 
 Professional skills are the **abilities and qualities** that help a person work effectively and succeed in a professional environment. They encompass both:
 
-- **Technical skills** — programming, writing, research, systems analysis
-- **Soft skills** — communication, teamwork, leadership, time management
+- **Technical skills** - programming, writing, research, systems analysis
+- **Soft skills** - communication, teamwork, leadership, time management
 
 > Professional skills help individuals perform tasks efficiently, solve problems, work well with others, and achieve career growth.
 
@@ -238,24 +238,24 @@ mindmap
 
 ### How to Improve Professional Skills
 
-- **Continuous learning** — Courses, certifications, online tutorials
-- **Practical experience** — Internships, group projects, part-time roles
-- **Self-reflection** — Journaling, portfolio building, post-project reviews
-- **Seeking feedback** — Peer reviews, mentors, performance conversations
-- **Active participation** — Team projects, workshops, leadership opportunities
+- **Continuous learning** - Courses, certifications, online tutorials
+- **Practical experience** - Internships, group projects, part-time roles
+- **Self-reflection** - Journaling, portfolio building, post-project reviews
+- **Seeking feedback** - Peer reviews, mentors, performance conversations
+- **Active participation** - Team projects, workshops, leadership opportunities
 
 ---
 
-### 🪟 The Johari Window — Self-Awareness Tool
+### 🪟 The Johari Window - Self-Awareness Tool
 
 The **Johari Window** is a 2×2 grid that helps you understand yourself through the lens of what *you* know and what *others* know about you.
 
 | | **Known to Self** | **Not Known to Self** |
 |---|---|---|
-| **Known to Others** | 🟢 **Open Area** — Shared strengths | 🔵 **Blind Area** — Hidden strengths others see in you |
-| **Not Known to Others** | 🟡 **Hidden Area** — Things only you know | ⬜ **Unknown Area** — Yet to be discovered |
+| **Known to Others** | 🟢 **Open Area** - Shared strengths | 🔵 **Blind Area** - Hidden strengths others see in you |
+| **Not Known to Others** | 🟡 **Hidden Area** - Things only you know | ⬜ **Unknown Area** - Yet to be discovered |
 
-**Activity:** In class, we passed chits around the room where classmates wrote 3–4 qualities they see in us. By plotting these against our own self-assessment, we discovered our "Blind Area" — strengths we hadn't noticed in ourselves.
+**Activity:** In class, we passed chits around the room where classmates wrote 3–4 qualities they see in us. By plotting these against our own self-assessment, we discovered our "Blind Area" - strengths we hadn't noticed in ourselves.
 
 > 🎨 **Generate this visual with ChatGPT/DALL-E:**
 > *"Create a clean 2x2 Johari Window infographic. Four quadrants: Open Area (green, top-left), Blind Area (blue, top-right), Hidden Area (yellow, bottom-left), Unknown Area (grey, bottom-right). Each quadrant has a brief description. Axes labelled 'Known to Self / Not Known to Self' and 'Known to Others / Not Known to Others'. Scrapbook-style, warm tones, flat design."*
@@ -264,27 +264,27 @@ The **Johari Window** is a 2×2 grid that helps you understand yourself through 
 
 ### 🎯 Classroom Activities
 
-1. **Skills Match-Up** — Matched a list of job roles (Manager, Sales Rep, Customer Service Agent) to their required skill sets. Showed how each job needs its own unique mix.
-2. **Future Goal Writing** — Wrote down the professional skills we'll need for our chosen career path in IT.
-3. **Johari Window Exercise** — Used the MyGrow worksheet to map self-known vs peer-observed strengths. The blind-area feedback from classmates was unexpectedly insightful.
+1. **Skills Match-Up** - Matched a list of job roles (Manager, Sales Rep, Customer Service Agent) to their required skill sets. Showed how each job needs its own unique mix.
+2. **Future Goal Writing** - Wrote down the professional skills we'll need for our chosen career path in IT.
+3. **Johari Window Exercise** - Used the MyGrow worksheet to map self-known vs peer-observed strengths. The blind-area feedback from classmates was unexpectedly insightful.
 
 ---
 
 ### 🌟 Key Takeaways
 
-1. Professional skills are just as important as technical skills — employers hire for both.
+1. Professional skills are just as important as technical skills - employers hire for both.
 2. Workplace skills fall into three groups: Technical, Soft, and Transferable.
 3. Values, attitudes, and character shape how we behave in professional environments.
 4. The Johari Window is a simple but powerful tool for increasing self-awareness.
-5. Feedback from others can reveal "blind spots" — strengths we've never noticed ourselves.
+5. Feedback from others can reveal "blind spots" - strengths we've never noticed ourselves.
 
 ---
 
 ### ✍️ Personal Reflection
 
-This module gave me a much clearer understanding that being a good IT professional isn't just about coding ability. The skills match-up activity showed how every role — even technical ones — requires a mix of human skills. The Johari Window was the most impactful part: seeing qualities others recognise in you that you've overlooked is a genuinely humbling and motivating experience.
+This module gave me a much clearer understanding that being a good IT professional isn't just about coding ability. The skills match-up activity showed how every role - even technical ones - requires a mix of human skills. The Johari Window was the most impactful part: seeing qualities others recognise in you that you've overlooked is a genuinely humbling and motivating experience.
 
-I left the session thinking about how I present myself — not just on paper, but in every group interaction.
+I left the session thinking about how I present myself - not just on paper, but in every group interaction.
 
 ---
 
@@ -305,7 +305,7 @@ I left the session thinking about how I present myself — not just on paper, bu
 
 ---
 
-### IQ vs EQ — The Crucial Difference
+### IQ vs EQ - The Crucial Difference
 
 | | 🧩 IQ (Intelligence Quotient) | 💛 EQ (Emotional Quotient) |
 |--|---|---|
@@ -353,18 +353,18 @@ mindmap
 
 ### Emotional Leakage
 
-Emotional leakage is when our **true feelings show without us consciously noticing** — through:
+Emotional leakage is when our **true feelings show without us consciously noticing** - through:
 
-- 🗣️ **Voice** — Tone, pitch, speed, trembling
-- 😐 **Facial expressions** — Micro-expressions that flash in milliseconds
-- 😮 **Breathing** — Shallow, rapid, or held breath
-- 🚶 **Body language** — Posture, gestures, eye contact
+- 🗣️ **Voice** - Tone, pitch, speed, trembling
+- 😐 **Facial expressions** - Micro-expressions that flash in milliseconds
+- 😮 **Breathing** - Shallow, rapid, or held breath
+- 🚶 **Body language** - Posture, gestures, eye contact
 
 > Others can often read our emotional state from these signals even when we try to suppress them.
 
 ---
 
-### Emotional Intelligence (EI) — The 4 Abilities
+### Emotional Intelligence (EI) - The 4 Abilities
 
 ```mermaid
 graph LR
@@ -399,26 +399,26 @@ mindmap
 ```
 
 > 🎨 **Generate this visual with ChatGPT/DALL-E:**
-> *"Create a pentagon diagram showing Goleman's 5 Domains of Emotional Intelligence. Five equal segments: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills. Each segment has an icon and a one-line description. Clean flat design, scrapbook style, soft warm colour palette — cream, green, amber, soft blue."*
+> *"Create a pentagon diagram showing Goleman's 5 Domains of Emotional Intelligence. Five equal segments: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills. Each segment has an icon and a one-line description. Clean flat design, scrapbook style, soft warm colour palette - cream, green, amber, soft blue."*
 
 ---
 
 ### Aristotle on Emotional Intelligence (350 BC)
 
-> *"Anyone can become angry — that is easy. But to be angry with the right person, to the right degree, at the right time, for the right purpose, and in the right way — that is not easy."*
-> — Aristotle, *The Nicomachean Ethics*
+> *"Anyone can become angry - that is easy. But to be angry with the right person, to the right degree, at the right time, for the right purpose, and in the right way - that is not easy."*
+> - Aristotle, *The Nicomachean Ethics*
 
 ---
 
 ### 🎭 Classroom Activities
 
-**Activity 1 — The Surprise Reaction:**
-The lecturer suddenly raised her voice at a student. The room went completely silent. She then revealed it was a deliberate demonstration of how **emotions spread instantly and affect an entire room** — this is emotional contagion in action.
+**Activity 1 - The Surprise Reaction:**
+The lecturer suddenly raised her voice at a student. The room went completely silent. She then revealed it was a deliberate demonstration of how **emotions spread instantly and affect an entire room** - this is emotional contagion in action.
 
-**Activity 2 — Emotion Role-Play:**
+**Activity 2 - Emotion Role-Play:**
 Each group member was secretly assigned an emotion (Happy, Sad, Angry, Disgusted). Without revealing it, each person behaved according to that emotion in a group conversation.
 
-*My assigned emotion was Happy.* I said "The lecture is almost over!" — my group looked pleased but confused.
+*My assigned emotion was Happy.* I said "The lecture is almost over!" - my group looked pleased but confused.
 
 The activity showed powerfully how **hidden emotions silently disrupt group dynamics** even when nothing is said directly.
 
@@ -427,7 +427,7 @@ The activity showed powerfully how **hidden emotions silently disrupt group dyna
 ### 🌟 Key Takeaways
 
 1. IQ opens doors; EQ keeps them open and earns leadership.
-2. Emotions are never truly hidden — they leak through voice, face, and body.
+2. Emotions are never truly hidden - they leak through voice, face, and body.
 3. Goleman's 5 EI domains: Self-Awareness, Self-Regulation, Motivation, Empathy, Social Skills.
 4. Self-regulation means expressing emotions at the *right time*, in the *right way*.
 5. Strong EI reduces conflict, builds better relationships, and improves team performance.
@@ -436,9 +436,9 @@ The activity showed powerfully how **hidden emotions silently disrupt group dyna
 
 ### ✍️ Personal Reflection
 
-Before this session, I thought emotions were a private matter with no place in professional settings. The role-play activity completely changed that. When one person in a group carries hidden frustration, the entire team feels the tension — even without a single word being spoken.
+Before this session, I thought emotions were a private matter with no place in professional settings. The role-play activity completely changed that. When one person in a group carries hidden frustration, the entire team feels the tension - even without a single word being spoken.
 
-As an IT student who regularly works in project groups, this lesson is immediately practical. The late-night debugging sessions, the tight deadlines, the disagreements about approach — these are all emotional experiences as much as technical ones. A team that manages emotions well will always outperform one that doesn't, regardless of skill level.
+As an IT student who regularly works in project groups, this lesson is immediately practical. The late-night debugging sessions, the tight deadlines, the disagreements about approach - these are all emotional experiences as much as technical ones. A team that manages emotions well will always outperform one that doesn't, regardless of skill level.
 
 ---
 
@@ -461,7 +461,7 @@ As an IT student who regularly works in project groups, this lesson is immediate
 
 ### What is a CV?
 
-A CV (Curriculum Vitae) is the **first document that introduces you to a potential employer**. It is your personal marketing document — not simply a record of facts, but a strategically crafted tool designed to get you an interview.
+A CV (Curriculum Vitae) is the **first document that introduces you to a potential employer**. It is your personal marketing document - not simply a record of facts, but a strategically crafted tool designed to get you an interview.
 
 A strong CV must be:
 
@@ -479,7 +479,7 @@ A strong CV must be:
 flowchart TD
     A[📋 Your CV] --> B[👤 Personal Information\nName, contact, LinkedIn, GitHub]
     B --> C[📝 Professional Summary\nWho you are and what you bring]
-    C --> D[💼 Work Experience\nReverse chronological order — newest first]
+    C --> D[💼 Work Experience\nReverse chronological order - newest first]
     D --> E[🎓 Education\nDegrees, certifications, relevant courses]
     E --> F[🔧 Skills & Competencies\nTechnical and professional skills]
     F --> G[🏆 Achievements & Awards\nQuantifiable wins from work and life]
@@ -494,10 +494,10 @@ flowchart TD
 
 | Element | Why It Matters |
 |---------|---------------|
-| **Targeted Profile** | Must 'mirror' what the employer says they want — use their own keywords |
+| **Targeted Profile** | Must 'mirror' what the employer says they want - use their own keywords |
 | **Strong Personality** | Most CVs feel generic; showing *who you are* makes you memorable |
 | **Achievements** | Aim for up to 20 achievements from both work and life experiences |
-| **Action Verbs** | "Developed", "Led", "Implemented", "Designed" — active language shows impact |
+| **Action Verbs** | "Developed", "Led", "Implemented", "Designed" - active language shows impact |
 | **Quantifiable Results** | "Improved loading speed by 40%" beats "improved performance" every time |
 | **Relevant Keywords** | Pulled from the job description to pass ATS filters |
 
@@ -508,14 +508,14 @@ flowchart TD
 | Mistake | Why It's Harmful |
 |---------|-----------------|
 | **Passive language** | "Responsibilities included..." shows tasks, not success |
-| **Unexplained gaps** | Employers draw their own negative conclusions — explain gaps briefly and positively |
+| **Unexplained gaps** | Employers draw their own negative conclusions - explain gaps briefly and positively |
 | **Irrelevant information** | Date of birth, marital status, short-term unrelated jobs |
 | **Spelling or grammar errors** | Can immediately disqualify your application |
 | **Generic, untailored content** | A one-size-fits-all CV rarely passes the first review |
 
 ---
 
-### Understanding ATS — Applicant Tracking Systems
+### Understanding ATS - Applicant Tracking Systems
 
 Most companies use software to filter CVs *before a human ever sees them*:
 
@@ -544,7 +544,7 @@ A cover letter is a **personalised, 1-page introduction** that accompanies your 
 | Show your personality | Differentiates you from identical CVs |
 | Explain *why this company* | Proves genuine research and motivation |
 | Match your skills to their needs | Shows you've read the job description carefully |
-| Be concise | Recruiters skim — every word must earn its place |
+| Be concise | Recruiters skim - every word must earn its place |
 
 ---
 
@@ -561,27 +561,27 @@ A cover letter is a **personalised, 1-page introduction** that accompanies your 
 
 ### 🌟 Key Takeaways
 
-1. A CV is a marketing document — not just a fact list. Tailor it every time.
+1. A CV is a marketing document - not just a fact list. Tailor it every time.
 2. Research the company and use job-description keywords to pass ATS.
 3. A cover letter explains *why you're the right fit*, not just what you've done.
 4. LinkedIn is an important extension of your CV and should be kept professional.
 5. Action verbs and quantifiable achievements make a CV stand out.
-6. Common mistakes — spelling errors, irrelevant info — can instantly eliminate applications.
+6. Common mistakes - spelling errors, irrelevant info - can instantly eliminate applications.
 
 ---
 
 ### ✍️ Personal Reflection
 
-Before this session, I thought writing a CV was simply listing qualifications and hoping for the best. Learning about ATS systems was genuinely eye-opening — your CV might never be seen by a human if it's not keyword-optimised. The cover letter exercise also showed how small changes (an action verb here, a specific achievement there) transform a generic document into something that actually commands attention.
+Before this session, I thought writing a CV was simply listing qualifications and hoping for the best. Learning about ATS systems was genuinely eye-opening - your CV might never be seen by a human if it's not keyword-optimised. The cover letter exercise also showed how small changes (an action verb here, a specific achievement there) transform a generic document into something that actually commands attention.
 
-As I work toward my first IT internship, I now understand that my GitHub repositories and LinkedIn profile need to tell a consistent, professional story — one that connects my academic work to real-world value.
+As I work toward my first IT internship, I now understand that my GitHub repositories and LinkedIn profile need to tell a consistent, professional story - one that connects my academic work to real-world value.
 
 ---
 
 ### 🚀 Application to Real Life
 
 - **Now:** Updating my CV and LinkedIn profile to reflect my current skills, projects, and academic achievements.
-- **Future:** Tailoring every application separately — matching my skills to each job description and writing a bespoke cover letter each time.
+- **Future:** Tailoring every application separately - matching my skills to each job description and writing a bespoke cover letter each time.
 - **Long-term:** Maintaining a "running achievements list" throughout my career so I always have strong, quantifiable content ready.
 
 ---
@@ -598,7 +598,7 @@ As I work toward my first IT internship, I now understand that my GitHub reposit
 
 ### Why Research Matters
 
-Research is not just for academics — it is a **practical professional skill** used daily in IT:
+Research is not just for academics - it is a **practical professional skill** used daily in IT:
 
 - Developing **new ideas** and improving existing systems
 - Making **evidence-based decisions** rather than assumptions
@@ -648,7 +648,7 @@ flowchart TD
 | **3** | Choose Methodology | Decide *how* you'll gather and analyse data |
 | **4** | Collect Data | Implement your data collection method rigorously |
 | **5** | Analyse Data | Look for patterns, trends, correlations, and anomalies |
-| **6** | Results & Discussion | Interpret the data — what does it actually mean? |
+| **6** | Results & Discussion | Interpret the data - what does it actually mean? |
 | **7** | Conclusion | Summarise findings, acknowledge limitations, suggest future research |
 
 ---
@@ -670,10 +670,10 @@ Research methods apply directly to real IT work:
 
 Good research is built on integrity:
 
-- **Proper referencing** — Acknowledge *every* source used
-- **No plagiarism** — Always paraphrase, cite, and credit
-- **Transparency** — Describe methods clearly so others can verify findings
-- **Accurate reporting** — Report results honestly, even when unexpected
+- **Proper referencing** - Acknowledge *every* source used
+- **No plagiarism** - Always paraphrase, cite, and credit
+- **Transparency** - Describe methods clearly so others can verify findings
+- **Accurate reporting** - Report results honestly, even when unexpected
 
 ---
 
@@ -689,7 +689,7 @@ Good research is built on integrity:
 
 ### ✍️ Personal Reflection
 
-Before this session, I assumed research was only for professors or final-year dissertations. Dr. Janaka's connection between research and building real applications made the topic immediately relevant. The step-by-step structure makes research feel less like an overwhelming academic task and more like structured problem-solving — something we do every time we approach a programming challenge.
+Before this session, I assumed research was only for professors or final-year dissertations. Dr. Janaka's connection between research and building real applications made the topic immediately relevant. The step-by-step structure makes research feel less like an overwhelming academic task and more like structured problem-solving - something we do every time we approach a programming challenge.
 
 This session changed how I approach my assignments. Now I identify the problem first and review what's already been said before jumping into writing or coding.
 
@@ -697,7 +697,7 @@ This session changed how I approach my assignments. Now I identify the problem f
 
 ### 🚀 Application to Real Life
 
-- **Now:** Applying the research structure to university assignments — problem first, literature second, then analysis.
+- **Now:** Applying the research structure to university assignments - problem first, literature second, then analysis.
 - **Future:** Before starting any project, doing a short literature/market review to understand what's already been built.
 - **Long-term:** Using research methods in my IT career to develop evidence-based solutions and write credible technical reports.
 
@@ -715,7 +715,7 @@ This session changed how I approach my assignments. Now I identify the problem f
 
 ### What is an Agenda?
 
-An agenda is a **structured outline of topics, activities, and sessions** for any meeting or event. It is a *strategic tool* — not just a to-do list — that:
+An agenda is a **structured outline of topics, activities, and sessions** for any meeting or event. It is a *strategic tool* - not just a to-do list - that:
 
 - Keeps everyone focused and on track
 - Manages time and sets clear expectations
@@ -807,15 +807,15 @@ flowchart LR
 
 ### Meeting Etiquette
 
-- ⏰ **Punctuality** — Arrive prepared and on time
-- 📋 **Preparation** — Read the agenda before attending
-- 🗣️ **Clarity** — Speak clearly and concisely
-- 🤫 **Active listening** — Don't interrupt; wait your turn
-- 📵 **No distractions** — Phones and laptops away unless required
+- ⏰ **Punctuality** - Arrive prepared and on time
+- 📋 **Preparation** - Read the agenda before attending
+- 🗣️ **Clarity** - Speak clearly and concisely
+- 🤫 **Active listening** - Don't interrupt; wait your turn
+- 📵 **No distractions** - Phones and laptops away unless required
 
 ---
 
-### 🎯 Activity: Mock Meeting — Startup Café Project
+### 🎯 Activity: Mock Meeting - Startup Café Project
 
 We performed a full mock meeting in the **7th-floor board meeting room** using the Startup Café business scenario. I was selected as **Chairperson (CEO)**:
 
@@ -834,11 +834,11 @@ Following the complete 5-step structure in a real boardroom setting was an exper
 
 ### 🌟 Key Takeaways
 
-1. An agenda is a *strategic* tool — the difference between a productive meeting and a wasted hour.
+1. An agenda is a *strategic* tool - the difference between a productive meeting and a wasted hour.
 2. Every agenda needs the standard formal format with all essential components.
 3. Meetings follow a clear 5-step structure: Prepare → Open → Discuss → Decide → Close.
 4. The Chairperson and Secretary are the most critical roles for a smooth meeting.
-5. Meeting etiquette — punctuality, preparation, listening — is just as important as the agenda.
+5. Meeting etiquette - punctuality, preparation, listening - is just as important as the agenda.
 6. Mock meetings build genuine confidence for real professional environments.
 
 ---
@@ -847,13 +847,13 @@ Following the complete 5-step structure in a real boardroom setting was an exper
 
 Before this session, I assumed running a meeting was simply gathering people and talking through issues until something was decided. Leading the Startup Café meeting as Chairperson completely revised that assumption. Having a structured agenda meant I could redirect off-topic conversations and ensure every role contributed.
 
-Sitting in a formal boardroom and following professional protocols made the experience feel surprisingly real. That environment — the table, the roles, the formal language — changed how I carried myself. I felt more confident, more deliberate, and more professional.
+Sitting in a formal boardroom and following professional protocols made the experience feel surprisingly real. That environment - the table, the roles, the formal language - changed how I carried myself. I felt more confident, more deliberate, and more professional.
 
 ---
 
 ### 🚀 Application to Real Life
 
-- **Now:** Using the proper agenda format for all group project meetings — with time slots, facilitators, and clear action items.
+- **Now:** Using the proper agenda format for all group project meetings - with time slots, facilitators, and clear action items.
 - **Future:** Applying the 5-step structure whenever leading or participating in professional team discussions.
 - **Long-term:** These skills will serve me in every client meeting, sprint planning session, and stakeholder presentation throughout my IT career.
 
@@ -865,7 +865,7 @@ Sitting in a formal boardroom and following professional protocols made the expe
 
 **Lecturer:** Ms. Lelani Kandegamage
 **Date:** 24/03/2026
-**Session Overview:** Negotiation as a core professional skill — strategies, tactics, frameworks, and the win-win mindset.
+**Session Overview:** Negotiation as a core professional skill - strategies, tactics, frameworks, and the win-win mindset.
 
 ---
 
@@ -887,7 +887,7 @@ Negotiation is far more than arguing for what you want. It is a **key life skill
 
 ```mermaid
 graph TD
-    A[🤝 Negotiation Behaviours\nGavin Kennedy] --> B[❌ Manipulation\nOne-sided — exploits the other party for personal gain]
+    A[🤝 Negotiation Behaviours\nGavin Kennedy] --> B[❌ Manipulation\nOne-sided - exploits the other party for personal gain]
     A --> C[✅ Win-Win\nBoth parties achieve their core goals]
     A --> D[🤲 Good Intentions\nTwo-way exchange with genuine compromise]
 ```
@@ -914,7 +914,7 @@ flowchart LR
 
 ---
 
-### Common Negotiation Tactics — Know Them to Beat Them
+### Common Negotiation Tactics - Know Them to Beat Them
 
 | Tactic | How It Works |
 |--------|-------------|
@@ -933,8 +933,8 @@ flowchart LR
 
 | Concept | Definition |
 |---------|-----------|
-| **BATNA** | *Best Alternative To a Negotiated Agreement* — your strongest backup plan if talks fail |
-| **ZOPA** | *Zone Of Possible Agreement* — the range where both parties can reach a deal |
+| **BATNA** | *Best Alternative To a Negotiated Agreement* - your strongest backup plan if talks fail |
+| **ZOPA** | *Zone Of Possible Agreement* - the range where both parties can reach a deal |
 | **Me First (Win/Lose)** | One party gains significantly at the other's expense |
 | **We First (Win/Win)** | Both parties achieve their core goals; relationship is preserved |
 
@@ -948,7 +948,7 @@ graph LR
     A --> C[🤝 We First\nWin / Win\nLong-term value\nPreserves relationships]
 ```
 
-> In professional life, **We First (Win/Win)** almost always produces better long-term outcomes. You work with the same people again — burning bridges is never worth it.
+> In professional life, **We First (Win/Win)** almost always produces better long-term outcomes. You work with the same people again - burning bridges is never worth it.
 
 ---
 
@@ -983,9 +983,9 @@ graph LR
 
 ### ✍️ Personal Reflection
 
-Before this session, I assumed negotiation was reserved for high-stakes business deals or buying a car. The lecture revealed that I negotiate every single day — when dividing up group project tasks, when discussing deadline extensions with lecturers, when deciding whose design approach the team follows.
+Before this session, I assumed negotiation was reserved for high-stakes business deals or buying a car. The lecture revealed that I negotiate every single day - when dividing up group project tasks, when discussing deadline extensions with lecturers, when deciding whose design approach the team follows.
 
-The 5-step framework gave me language for something I was doing intuitively but inconsistently. I found myself most drawn to the Win-Win philosophy — it reflects the kind of collaborator I aspire to be. In IT, where you work with the same people across multiple projects and years, maintaining relationships is just as valuable as winning a single argument.
+The 5-step framework gave me language for something I was doing intuitively but inconsistently. I found myself most drawn to the Win-Win philosophy - it reflects the kind of collaborator I aspire to be. In IT, where you work with the same people across multiple projects and years, maintaining relationships is just as valuable as winning a single argument.
 
 ---
 
@@ -993,7 +993,7 @@ The 5-step framework gave me language for something I was doing intuitively but 
 
 - **Now:** Using the 5-step structure in group project discussions; always preparing my BATNA before negotiating deadlines.
 - **Future:** Applying active listening and win-win thinking in all client and team negotiations during my IT career.
-- **Long-term:** Salary negotiations, project scoping, vendor agreements — these skills will matter at every career stage.
+- **Long-term:** Salary negotiations, project scoping, vendor agreements - these skills will matter at every career stage.
 
 ---
 
@@ -1010,9 +1010,9 @@ The 5-step framework gave me language for something I was doing intuitively but 
 ### Why Teamwork Matters
 
 > *"Everyone needs somebody, anybody… a reason to live."*
-> — Mr. Suresh Dissanayake
+> - Mr. Suresh Dissanayake
 
-Real strength and purpose in professional life come from working *with* others — not despite them.
+Real strength and purpose in professional life come from working *with* others - not despite them.
 
 ```mermaid
 mindmap
@@ -1051,7 +1051,7 @@ mindmap
 - 📐 Structured roles and responsibilities
 - ✅ Achievable, clearly communicated goals
 - 🔄 Regular, constructive feedback loops
-- 💡 Always solution-focused — not problem-obsessed
+- 💡 Always solution-focused - not problem-obsessed
 
 ---
 
@@ -1059,7 +1059,7 @@ mindmap
 
 ```mermaid
 flowchart TD
-    A[1️⃣ FORMING\nGroup comes together\nRoles unclear — excitement & uncertainty] --> B
+    A[1️⃣ FORMING\nGroup comes together\nRoles unclear - excitement & uncertainty] --> B
     B[2️⃣ STORMING\nConflict emerges\nPersonalities and ideas clash] --> C
     C[3️⃣ NORMING\nGround rules form\nGroup becomes cohesive & collaborative] --> D
     D[4️⃣ PERFORMING\nTeam works effectively\nHigh output with minimal friction] --> E
@@ -1074,7 +1074,7 @@ flowchart TD
 | **Performing** | High-functioning; shared goals; low friction | Support; celebrate wins; remove blockers |
 | **Adjourning** | Completion; reflection; transition | Acknowledge contributions; capture learnings |
 
-> **Key insight:** Every team goes through *all 5 stages* — even conflict during Storming is not a failure. It is a necessary step toward high performance.
+> **Key insight:** Every team goes through *all 5 stages* - even conflict during Storming is not a failure. It is a necessary step toward high performance.
 
 ---
 
@@ -1095,10 +1095,10 @@ quadrantChart
     title Kenneth Thomas Conflict Styles (1971)
     x-axis Low Relationship Importance --> High Relationship Importance
     y-axis Low Goal Importance --> High Goal Importance
-    quadrant-1 🦉 OWL — Collaborating
-    quadrant-2 🦈 SHARK — Competing
-    quadrant-3 🐢 TURTLE — Avoiding
-    quadrant-4 🧸 TEDDY BEAR — Accommodating
+    quadrant-1 🦉 OWL - Collaborating
+    quadrant-2 🦈 SHARK - Competing
+    quadrant-3 🐢 TURTLE - Avoiding
+    quadrant-4 🧸 TEDDY BEAR - Accommodating
     Shark: [0.2, 0.8]
     Owl: [0.8, 0.8]
     Fox: [0.5, 0.5]
@@ -1113,18 +1113,18 @@ quadrantChart
 
 ### 🏗️ Activity: A4 Paper Tower Challenge
 
-Divided into 4 groups, each team received only **2 sheets of A4 paper and 10 minutes** to build the **tallest free-standing tower** — no other materials.
+Divided into 4 groups, each team received only **2 sheets of A4 paper and 10 minutes** to build the **tallest free-standing tower** - no other materials.
 
 > 🏆 **Result: Our group built the HIGHEST tower in the class!**
 
 What the activity revealed:
-- **Synergy** — Our combined approach produced something none of us would have built alone
-- **Communication** — Fast, clear decisions under time pressure were decisive
-- **Leadership** — Someone had to commit to a design quickly and rally the team
-- **Problem-Solving** — Adapting mid-build when our first structure started to lean
-- **Flexibility** — Each person contributed different folding and structural ideas
+- **Synergy** - Our combined approach produced something none of us would have built alone
+- **Communication** - Fast, clear decisions under time pressure were decisive
+- **Leadership** - Someone had to commit to a design quickly and rally the team
+- **Problem-Solving** - Adapting mid-build when our first structure started to lean
+- **Flexibility** - Each person contributed different folding and structural ideas
 
-> A rival team's tower collapsed at the very last second — showing how poor communication, unclear leadership, and weak coordination can destroy even a strong idea under pressure. That moment taught more than any success could.
+> A rival team's tower collapsed at the very last second - showing how poor communication, unclear leadership, and weak coordination can destroy even a strong idea under pressure. That moment taught more than any success could.
 
 ---
 
@@ -1134,35 +1134,35 @@ Mr. Suresh used short film clips to illustrate leadership concepts:
 
 | Clip | Lesson |
 |------|--------|
-| **The Avengers — Chitauri Battle** | People from completely different backgrounds uniting for a single shared goal |
-| **Lord of the Rings — Forming the Fellowship** | The Forming and Norming stages; different skills converging around one mission |
+| **The Avengers - Chitauri Battle** | People from completely different backgrounds uniting for a single shared goal |
+| **Lord of the Rings - Forming the Fellowship** | The Forming and Norming stages; different skills converging around one mission |
 | **The Last Ship** | Leadership under extreme pressure; maintaining team cohesion in crisis |
 
 ---
 
 ### 🌟 Key Takeaways
 
-1. Effective teamwork requires synergy, support, equality, and clear leadership — not just technical skill.
-2. Every team naturally goes through Tuckman's 5 stages — Storming is normal, not a sign of failure.
+1. Effective teamwork requires synergy, support, equality, and clear leadership - not just technical skill.
+2. Every team naturally goes through Tuckman's 5 stages - Storming is normal, not a sign of failure.
 3. Understanding your conflict style (Thomas model) helps you manage disagreements strategically.
-4. Being a great team leader means understanding people and creating belonging — not just giving instructions.
+4. Being a great team leader means understanding people and creating belonging - not just giving instructions.
 5. Practical challenges (like the tower activity) reveal more about team dynamics than theory alone.
 
 ---
 
 ### ✍️ Personal Reflection
 
-This session brought together everything we'd covered across the entire module. The tower-building activity was the highlight — not because we won, but because I could *see* every concept playing out in real time. We formed, stormed briefly over design disagreements, normed around a shared approach, performed under pressure, and adjourned with pride.
+This session brought together everything we'd covered across the entire module. The tower-building activity was the highlight - not because we won, but because I could *see* every concept playing out in real time. We formed, stormed briefly over design disagreements, normed around a shared approach, performed under pressure, and adjourned with pride.
 
-Mr. Suresh's opening quote stayed with me. In IT, where projects are increasingly complex and distributed, knowing how to build and lead effective teams isn't optional — it's the foundation everything else rests on.
+Mr. Suresh's opening quote stayed with me. In IT, where projects are increasingly complex and distributed, knowing how to build and lead effective teams isn't optional - it's the foundation everything else rests on.
 
-The Kenneth Thomas model helped me identify my own default conflict style. I lean toward Owl (Collaborating) — I want solutions that genuinely work for everyone, even when that takes more time. That self-knowledge is something I'll carry into every team I join.
+The Kenneth Thomas model helped me identify my own default conflict style. I lean toward Owl (Collaborating) - I want solutions that genuinely work for everyone, even when that takes more time. That self-knowledge is something I'll carry into every team I join.
 
 ---
 
 ### 🚀 Application to Real Life
 
-- **Now:** Using Tuckman's stages to diagnose where our group projects are — especially recognising Storming as a normal, temporary phase, not a crisis.
+- **Now:** Using Tuckman's stages to diagnose where our group projects are - especially recognising Storming as a normal, temporary phase, not a crisis.
 - **Future:** Focusing on clear communication and regular team feedback in all collaborative work.
 - **Long-term:** Embracing diversity in teams; developing leadership that creates genuine belonging and drives high performance.
 
@@ -1185,10 +1185,10 @@ Through the Professional Skills module (IT1215), I've built a foundation of comp
 | 7 | Negotiations | Discovered that every conversation is an opportunity for mutual value |
 | 8 | Team Leadership | Proved that the best outcomes emerge from genuine collaboration |
 
-The hands-on activities — the mock boardroom meeting, the paper tower challenge, the Johari Window exercise, the emotion role-play — made abstract concepts tangible. I don't just *know* these things; I've actually *practised* them.
+The hands-on activities - the mock boardroom meeting, the paper tower challenge, the Johari Window exercise, the emotion role-play - made abstract concepts tangible. I don't just *know* these things; I've actually *practised* them.
 
 > *"Professional skills are the operating system on which technical skills run. Without the OS, the best code in the world sits idle."*
-> — Rahul Arambepola
+> - Rahul Arambepola
 
 ---
 
@@ -1198,7 +1198,7 @@ The hands-on activities — the mock boardroom meeting, the paper tower challeng
 
 ---
 
-## 🎨 COMPLETE CHATGPT/DALL-E VISUAL PROMPTS — QUICK REFERENCE
+## 🎨 COMPLETE CHATGPT/DALL-E VISUAL PROMPTS - QUICK REFERENCE
 
 | Week | Visual | Prompt Summary |
 |------|--------|---------------|
