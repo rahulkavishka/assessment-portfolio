@@ -33,7 +33,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center text-center space-y-8">
           <div className="inline-block relative">
-            <h2 className="font-display font-bold text-6xl sm:text-7xl md:text-8xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-scrapbook-paper via-scrapbook-tan to-scrapbook-glow transform -rotate-1 drop-shadow-lg py-2">
+            <h2 className="font-display font-bold text-5xl sm:text-7xl md:text-8xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-scrapbook-paper via-scrapbook-tan to-scrapbook-glow transform -rotate-1 drop-shadow-lg py-2">
               Academic Journal
             </h2>
             <p className="mt-4 font-serif text-xl sm:text-2xl text-scrapbook-paper/80 italic max-w-2xl mx-auto font-light">
