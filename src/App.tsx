@@ -1,6 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import { Menu, X, Image as ImageIcon, Users, Compass, Home as HomeIcon, Brain, FileText, Search, ClipboardList, Handshake, Feather } from 'lucide-react';
 import { Week1 } from './components/sessions/Week1';
+import { Week2 } from './components/sessions/Week2';
+import { Week3 } from './components/sessions/Week3';
+import { Week4 } from './components/sessions/Week4';
+import { Week5 } from './components/sessions/Week5';
+import { Week6 } from './components/sessions/Week6';
+import { Week7 } from './components/sessions/Week7';
+import { Week8 } from './components/sessions/Week8';
 import { Home } from './components/Home';
 import { ProgressAndScroll } from './components/ProgressAndScroll';
 
@@ -15,6 +22,17 @@ const SESSIONS = [
   { id: 8, title: 'Week 8: Team Leadership Skills', icon: Users },
 ];
 
+const WEEK_COMPONENTS: Record<number, React.FC> = {
+  1: Week1,
+  2: Week2,
+  3: Week3,
+  4: Week4,
+  5: Week5,
+  6: Week6,
+  7: Week7,
+  8: Week8,
+};
+
 export default function App() {
   const [activeSession, setActiveSession] = useState(0);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -25,6 +43,17 @@ export default function App() {
       mainRef.current.scrollTop = 0;
     }
   }, [activeSession]);
+
+  const renderContent = () => {
+    if (activeSession === 0) {
+      return <Home onExplore={() => setActiveSession(1)} />;
+    }
+    const WeekComponent = WEEK_COMPONENTS[activeSession];
+    if (WeekComponent) {
+      return <WeekComponent />;
+    }
+    return null;
+  };
 
   return (
     <div className="flex h-screen bg-scrapbook-bg text-scrapbook-paper font-serif overflow-hidden selection:bg-scrapbook-tan/30">
@@ -170,31 +199,7 @@ export default function App() {
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-32 h-8 bg-scrapbook-tapeDark backdrop-blur-sm -rotate-2 z-10" style={{ clipPath: 'polygon(0% 10%, 100% 0%, 95% 100%, 5% 90%)' }}></div>
 
             <div className="relative z-10">
-              {activeSession === 0 ? (
-                <Home onExplore={() => setActiveSession(1)} />
-              ) : activeSession === 1 ? (
-                <Week1 />
-              ) : (
-                <div className="animate-in fade-in slide-in-from-bottom-8 duration-700 flex flex-col items-center justify-center pt-20 pb-32">
-                  <div className="relative group cursor-pointer mb-8">
-                    <div className="absolute inset-0 bg-scrapbook-accent/10 rounded-full blur-xl group-hover:bg-scrapbook-accent/20 transition-all duration-500"></div>
-                    <div className="relative bg-scrapbook-paperDark/50 border-2 border-dashed border-scrapbook-tan/50 w-32 h-32 rounded-full flex items-center justify-center transform group-hover:scale-105 group-hover:-rotate-3 transition-all duration-500">
-                      <Feather size={48} className="text-scrapbook-tan/70 group-hover:text-scrapbook-accent transition-colors" />
-                    </div>
-                  </div>
-                  <h2 className="font-handwriting text-5xl sm:text-7xl mb-4 transform -rotate-1 text-scrapbook-ink">
-                    {SESSIONS.find(s => s.id === activeSession)?.title}
-                  </h2>
-                  <div className="flex items-center gap-4 mb-8">
-                    <div className="h-px w-12 bg-scrapbook-tan/50"></div>
-                    <span className="font-sans text-xs uppercase tracking-[0.3em] text-scrapbook-accent font-bold">In Progress</span>
-                    <div className="h-px w-12 bg-scrapbook-tan/50"></div>
-                  </div>
-                  <p className="text-lg text-scrapbook-ink/70 max-w-xl mx-auto font-serif text-center">
-                    Content for this session is currently being crafted. The scrapbook layout is ready to hold memories, theories, and reflections.
-                  </p>
-                </div>
-              )}
+              {renderContent()}
             </div>
 
           </div>

@@ -85,7 +85,7 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
 
       {/* Main Introduction Grid */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center px-4 sm:px-6">
-        <div className="lg:col-span-6 space-y-4">
+        <div className="lg:col-span-5 space-y-4">
           <h3 className="font-handwriting text-4xl text-scrapbook-ink transform rotate-1 inline-block relative">
             What is this Portfolio?
             <span className="absolute bottom-1 left-0 w-full h-[2px] bg-scrapbook-accent/50 -rotate-1 rounded-full"></span>
@@ -99,11 +99,10 @@ export const Home: React.FC<HomeProps> = ({ onExplore }) => {
         </div>
 
         {/* Polaroid Graphic */}
-        <div className="lg:col-span-6 relative mx-auto w-full max-w-xl">
+        <div className="lg:col-span-7 relative mx-auto w-full max-w-2xl">
           <Polaroid
-            src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=600"
-            alt="Scrapbook Cover"
-            caption="Documenting the Journey"
+            src="/Week 1/Harbor Cover Illustration.png"
+            alt="Harbor of Sheets — Portfolio Cover"
             rotation="right"
           >
             <Tape variant="rose" className="-top-4 right-10 z-50 rotate-12" />
