@@ -1,123 +1,182 @@
 import React from 'react';
 import { Polaroid } from './scrapbook/Polaroid';
-import { StickyNote } from './scrapbook/StickyNote';
 import { Tape } from './scrapbook/Tape';
+import { PaperClip } from './scrapbook/PaperClip';
+import { Stamp } from './scrapbook/Stamp';
+import { SectionDivider } from './scrapbook/SectionDivider';
+import { ArrowRight, BookOpen, PenTool, Star } from 'lucide-react';
 
-export const Home: React.FC = () => {
+interface HomeProps {
+  onExplore?: () => void;
+}
+
+export const Home: React.FC<HomeProps> = ({ onExplore }) => {
   return (
-    <div className="space-y-16 py-6 animate-in fade-in slide-in-from-bottom-8 duration-700">
+    <div className="space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 pb-8">
 
-      {/* Scrapbook Header / Cover Style */}
-      <section className="text-center space-y-6 relative pb-8 border-b border-scrapbook-tan/20">
-        <div className="inline-block relative">
-          <h2 className="font-handwriting text-6xl sm:text-7xl text-scrapbook-ink transform -rotate-1 mt-0">
-            Academic Journal
-          </h2>
+      {/* Hero Section */}
+      <section className="relative -mx-4 sm:-mx-6 lg:-mx-8 -mt-4 sm:-mt-6 lg:-mt-8 mb-8 py-6 sm:py-8 lg:py-10 px-8 sm:px-12 lg:px-16 overflow-hidden rounded-t-sm shadow-md border-b border-[#3c2f25]">
+        {/* Dark textured background */}
+        <div className="absolute inset-0 bg-[#2b1f17]">
+          <div className="absolute inset-0 opacity-[0.08] mix-blend-overlay" style={{ backgroundImage: 'url("/stucco.png")' }}></div>
+          {/* Subtle gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#2b1f17] via-[#241a13] to-[#16100b] opacity-100"></div>
         </div>
-        <p className="font-serif text-lg sm:text-xl text-scrapbook-ink/80 italic max-w-2xl mx-auto">
-          A creative, evidence-based scrapbook documenting Professional Skills Module learning, milestones, and reflections.
-        </p>
 
-        {/* Student Profile Index Card */}
-        <div className="relative max-w-md mx-auto bg-scrapbook-paperDark/70 border border-scrapbook-tan/30 p-6 rounded-md shadow-md transform rotate-1 hover:rotate-0 transition-transform duration-300 mt-6">
-          <Tape className="-top-4 left-1/2 -translate-x-1/2 w-28 h-8 rotate-1" />
-          <div className="text-center space-y-2 font-serif text-scrapbook-ink">
-            <div className="text-xs uppercase tracking-widest text-scrapbook-tan font-bold">Student Log</div>
-            <div className="font-handwriting text-3xl text-scrapbook-ink font-semibold">Rahul Arambepola</div>
-            <div className="text-sm border-t border-scrapbook-tan/30 pt-2 flex justify-between px-4">
-              <span><strong>Reg No:</strong> SA24610322</span>
-              <span>SLIIT City Uni</span>
-            </div>
-            <div className="text-sm border-t border-scrapbook-tan/30 pt-2">
-              <strong>Module:</strong> Professional Skills
+        {/* Floating Decorative Doodles */}
+        <div className="absolute inset-0 pointer-events-none opacity-20">
+          <BookOpen className="absolute top-10 left-10 w-12 h-12 text-scrapbook-tan animate-float" />
+          <PenTool className="absolute bottom-20 right-10 w-8 h-8 text-scrapbook-tan animate-float" style={{ animationDelay: '1s' }} />
+          <Star className="absolute top-20 right-20 w-6 h-6 text-scrapbook-tan animate-float" style={{ animationDelay: '2s' }} />
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 flex flex-col items-center text-center space-y-8">
+          <div className="inline-block relative">
+            <h2 className="font-display font-bold text-6xl sm:text-7xl md:text-8xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-scrapbook-paper via-scrapbook-tan to-scrapbook-glow transform -rotate-1 drop-shadow-lg py-2">
+              Academic Journal
+            </h2>
+            <p className="mt-4 font-serif text-xl sm:text-2xl text-scrapbook-paper/80 italic max-w-2xl mx-auto font-light">
+              A creative, evidence-based scrapbook documenting Professional Skills Module learning, milestones, and reflections.
+            </p>
+          </div>
+
+          {/* Student Profile Glass Card */}
+          <div className="relative mt-6 w-full max-w-sm animate-reveal-up stagger-2">
+            <PaperClip variant="gold" className="-top-8 -left-2" />
+            <div className="glass rounded-xl p-5 transform rotate-1 hover:rotate-0 transition-transform duration-500 shadow-2xl relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-50"></div>
+              <Stamp text="VERIFIED" color="red" rotation="-rotate-12" className="-top-2 -right-4 opacity-50 scale-75" />
+
+              <div className="relative z-10 space-y-2 text-left">
+                <div className="flex items-center gap-3 mb-3 border-b border-white/20 pb-3">
+                  <div className="w-10 h-10 rounded-full bg-scrapbook-tan/20 flex items-center justify-center border border-white/30 flex-shrink-0">
+                    <span className="font-display font-bold text-lg text-scrapbook-paper">RA</span>
+                  </div>
+                  <div>
+                    <div className="text-[10px] uppercase tracking-widest text-scrapbook-tan font-bold">Student Log</div>
+                    <div className="font-handwriting text-2xl text-scrapbook-paper leading-none mt-1">Rahul Arambepola</div>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-x-4 gap-y-2 font-sans text-sm text-scrapbook-paper/80">
+                  <div>
+                    <span className="block text-[10px] uppercase tracking-wider text-scrapbook-tan/70 mb-0.5">Reg No</span>
+                    <span className="font-medium text-scrapbook-paper">SA24610322</span>
+                  </div>
+                  <div>
+                    <span className="block text-[10px] uppercase tracking-wider text-scrapbook-tan/70 mb-0.5">Campus</span>
+                    <span className="font-medium text-scrapbook-paper">SLIIT City Uni</span>
+                  </div>
+                  <div className="col-span-2 mt-1.5 pt-1.5 border-t border-white/10">
+                    <span className="block text-[10px] uppercase tracking-wider text-scrapbook-tan/70 mb-0.5">Module</span>
+                    <span className="font-medium text-scrapbook-paper">Professional Skills - IT1215</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Main Introduction Grid */}
-      <section className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div className="lg:col-span-7 space-y-6">
-          <h3 className="font-handwriting text-4xl text-scrapbook-ink transform rotate-1">
+      <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center px-4 sm:px-6">
+        <div className="lg:col-span-6 space-y-4">
+          <h3 className="font-handwriting text-4xl text-scrapbook-ink transform rotate-1 inline-block relative">
             What is this Portfolio?
+            <span className="absolute bottom-1 left-0 w-full h-[2px] bg-scrapbook-accent/50 -rotate-1 rounded-full"></span>
           </h3>
-          <p className="font-serif text-base sm:text-lg leading-relaxed text-scrapbook-ink/90">
-            This portfolio functions as a literal <strong className="text-scrapbook-ink">"Harbor of Sheets"</strong>, a dedicated, organized space designed to preserve coursework, technical skills, and reflections.
+          <p className="font-serif text-lg leading-relaxed text-scrapbook-ink/90">
+            This portfolio functions as a literal <strong className="text-scrapbook-ink font-semibold">"Harbor of Sheets"</strong>, a dedicated, organized space designed to preserve coursework, technical skills, and reflections.
           </p>
-          <p className="font-serif text-base sm:text-lg leading-relaxed text-scrapbook-ink/90">
+          <p className="font-serif text-lg leading-relaxed text-scrapbook-ink/90">
             Rather than a dry CV or file directory, this site uses a physical <b>scrapbook layout</b> to emphasize that academic growth is an active, iterative, and tangible process. Through polaroid layouts, sticky notes, and sketches, each section acts as a preservation of progress.
           </p>
-
-          <div className="bg-[#e3d5bb]/30 border-l-4 border-scrapbook-tan p-6 rounded-r-md font-serif text-[15px] text-scrapbook-ink/90 space-y-3">
-            <h4 className="font-bold text-scrapbook-ink uppercase tracking-wider text-xs">Core Objectives:</h4>
-            <ul className="list-disc pl-4 space-y-1">
-              <li><strong>Presenting:</strong> Showcasing technical milestones and collaborative identity.</li>
-              <li><strong>Organizing:</strong> Maintaining a visible history of semester achievements.</li>
-              <li><strong>Discovering:</strong> Reflecting on strengths and identifying areas for career application.</li>
-            </ul>
-          </div>
         </div>
 
         {/* Polaroid Graphic */}
-        <div className="lg:col-span-5 relative mx-auto w-full max-w-sm">
+        <div className="lg:col-span-6 relative mx-auto w-full max-w-xl">
           <Polaroid
             src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=600"
             alt="Scrapbook Cover"
             caption="Documenting the Journey"
             rotation="right"
           >
-            <Tape className="-top-4 right-10 z-50 rotate-12" />
+            <Tape variant="rose" className="-top-4 right-10 z-50 rotate-12" />
           </Polaroid>
         </div>
       </section>
 
-      {/* The Pillars of the Scrapbook */}
-      <section className="space-y-8 pt-6 border-t border-scrapbook-tan/20">
-        <h3 className="font-handwriting text-4xl text-center text-scrapbook-ink transform -rotate-1 mb-8">
-          Portfolio Pillars
+      <SectionDivider variant="scissors" className="my-8" />
+
+      {/* Timeline Section */}
+      <section className="px-4 sm:px-6 max-w-3xl mx-auto">
+        <h3 className="font-handwriting text-4xl text-center text-scrapbook-ink transform -rotate-2 mb-6">
+          The Journey Ahead
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {/* Pillar 1: Weekly Sessions */}
-          <StickyNote color="tan" rotation="left" className="hover:-translate-y-2 transition-transform duration-300">
-            <Tape className="-top-4 left-6 -rotate-6" />
-            <h4 className="font-handwriting text-3xl mb-3 border-b border-scrapbook-tan pb-1 text-scrapbook-ink">
-              1. Weekly Sessions
-            </h4>
-            <p className="text-sm text-scrapbook-ink/80 leading-relaxed font-serif">
-              An active breakdown of each week's deliverables, starting with fundamental etymological concepts in Week 1, and progressing through the semester's material.
-            </p>
-          </StickyNote>
+        <div className="relative border-l-2 border-dashed border-scrapbook-tan/40 ml-4 space-y-8 pb-4">
 
-          {/* Pillar 2: Collaboration */}
-          <StickyNote color="blue" rotation="none" className="hover:-translate-y-2 transition-transform duration-300">
-            <Tape className="-top-4 left-1/2 -translate-x-1/2 rotate-3" />
-            <h4 className="font-handwriting text-3xl mb-3 border-b border-blue-200 pb-1 text-scrapbook-ink">
-              2. Collaboration
-            </h4>
-            <p className="text-sm text-scrapbook-ink/80 leading-relaxed font-serif">
-              Summaries of team tasks, mapping collective skills, defining mutual goals, and demonstrating coordination and reflection on team dynamics.
-            </p>
-          </StickyNote>
+          {/* Node 1 */}
+          <div className="relative pl-8">
+            <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-accent shadow-[0_0_10px_rgba(201,149,107,0.5)] border-2 border-scrapbook-paper z-10"></div>
+            <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-accent mb-1">Week 1-3</h4>
+            <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Foundation & Self</h5>
+            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Understanding the "Harbor" concept, building visual stories, and developing emotional intelligence.</p>
+          </div>
 
-          {/* Pillar 3: Career Planning */}
-          <StickyNote color="green" rotation="right" className="hover:-translate-y-2 transition-transform duration-300">
-            <Tape className="-top-4 right-6 rotate-6" />
-            <h4 className="font-handwriting text-3xl mb-3 border-b border-green-200 pb-1 text-scrapbook-ink">
-              3. Reflections
-            </h4>
-            <p className="text-sm text-scrapbook-ink/80 leading-relaxed font-serif">
-              A self-reflection zone to analyze what was learned, platform considerations (like GitHub and LinkedIn), and concrete steps for career application.
-            </p>
-          </StickyNote>
+          {/* Node 2 */}
+          <div className="relative pl-8">
+            <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-paper border-2 border-scrapbook-tan z-10"></div>
+            <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-tan mb-1">Week 4-5</h4>
+            <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Professional Output</h5>
+            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Crafting industry-ready CVs and conducting comprehensive academic and market research.</p>
+          </div>
+
+          {/* Node 3 */}
+          <div className="relative pl-8">
+            <div className="absolute left-[-9px] top-1 w-4 h-4 rounded-full bg-scrapbook-paper border-2 border-scrapbook-tan z-10"></div>
+            <h4 className="font-sans font-bold text-sm uppercase tracking-widest text-scrapbook-tan mb-1">Week 6-8</h4>
+            <h5 className="font-display font-semibold text-2xl text-scrapbook-ink mb-2">Leadership & Action</h5>
+            <p className="font-serif text-scrapbook-ink/70 text-sm max-w-md">Managing meetings, negotiating effectively, and demonstrating team leadership skills.</p>
+          </div>
+
         </div>
       </section>
 
-      {/* Footer Note */}
-      <section className="text-center pt-8 border-t border-scrapbook-tan/20">
-        <p className="font-handwriting text-3xl text-scrapbook-tan transform -rotate-1">
-          Use the sidebar to explore the weekly entries.
-        </p>
+      {/* Stats Banner */}
+      <section className="bg-scrapbook-bg text-scrapbook-paper py-8 relative overflow-hidden paper-shadow my-10 -mx-4 sm:-mx-6 lg:-mx-8">
+        <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay" style={{ backgroundImage: 'url("/stucco.png")' }}></div>
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-around items-center gap-6 relative z-10 font-display">
+          <div className="text-center group">
+            <div className="text-5xl font-bold text-scrapbook-accent mb-2 transition-transform group-hover:scale-110 duration-300">8</div>
+            <div className="text-sm uppercase tracking-widest text-scrapbook-paper/60">Weeks</div>
+          </div>
+          <div className="w-px h-16 bg-gradient-to-b from-transparent via-scrapbook-tan/30 to-transparent hidden sm:block"></div>
+          <div className="text-center group">
+            <div className="text-5xl font-bold text-scrapbook-accent mb-2 transition-transform group-hover:scale-110 duration-300">3</div>
+            <div className="text-sm uppercase tracking-widest text-scrapbook-paper/60">Pillars</div>
+          </div>
+          <div className="w-px h-16 bg-gradient-to-b from-transparent via-scrapbook-tan/30 to-transparent hidden sm:block"></div>
+          <div className="text-center group">
+            <div className="text-5xl font-bold text-scrapbook-accent mb-2 transition-transform group-hover:scale-110 duration-300">1</div>
+            <div className="text-sm uppercase tracking-widest text-scrapbook-paper/60">Journey</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer CTA */}
+      <section className="text-center pb-6 px-4">
+        <button
+          onClick={onExplore}
+          className="group relative inline-flex items-center justify-center px-8 py-4 font-sans font-bold tracking-widest uppercase text-scrapbook-bg bg-scrapbook-accent rounded-full overflow-hidden shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(201,149,107,0.4)]"
+        >
+          <div className="absolute inset-0 w-full h-full bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+          <span className="relative z-10 flex items-center gap-3">
+            Explore the Journal
+            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+          </span>
+        </button>
       </section>
 
     </div>

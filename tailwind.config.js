@@ -14,6 +14,8 @@ module.exports = {
       fontFamily: {
         handwriting: ['Caveat', 'cursive'],
         serif: ['Lora', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+        display: ['Outfit', 'sans-serif'],
       },
       colors: {
         scrapbook: {
@@ -24,6 +26,10 @@ module.exports = {
           ink: '#2a221d',
           tape: 'rgba(255, 255, 255, 0.4)', // Translucent tape
           tapeDark: 'rgba(0, 0, 0, 0.3)', // Dark tape
+          accent: '#c9956b', // warm gold accent
+          glow: '#e8c49a', // soft glow for hover states
+          shadow: '#0d0a08', // deep shadow for depth
+          highlight: '#fff8e7', // cream highlight
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
